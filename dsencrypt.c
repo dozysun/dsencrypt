@@ -3,7 +3,7 @@
 /* BEGIN: Cython Metadata
 {
     "distutils": {}, 
-    "module_name": "dsencrpt.dsencrypt"
+    "module_name": "dsencrypt.dsencrypt"
 }
 END: Cython Metadata */
 
@@ -434,8 +434,8 @@ static CYTHON_INLINE float __PYX_NAN() {
   #endif
 #endif
 
-#define __PYX_HAVE__dsencrpt__dsencrypt
-#define __PYX_HAVE_API__dsencrpt__dsencrypt
+#define __PYX_HAVE__dsencrypt__dsencrypt
+#define __PYX_HAVE_API__dsencrypt__dsencrypt
 #ifdef _OPENMP
 #include <omp.h>
 #endif /* _OPENMP */
@@ -631,7 +631,7 @@ static const char *__pyx_filename;
 
 
 static const char *__pyx_f[] = {
-  "dsencrpt/dsencrypt.py",
+  "dsencrypt/dsencrypt.py",
 };
 
 /*--- Type declarations ---*/
@@ -1053,16 +1053,6 @@ static CYTHON_INLINE PyObject* __Pyx_PyInt_From_long(long value);
 static PyObject* __Pyx_PyExec3(PyObject*, PyObject*, PyObject*);
 static CYTHON_INLINE PyObject* __Pyx_PyExec2(PyObject*, PyObject*);
 
-/* Print.proto */
-static int __Pyx_Print(PyObject*, PyObject *, int);
-#if CYTHON_COMPILING_IN_PYPY || PY_MAJOR_VERSION >= 3
-static PyObject* __pyx_print = 0;
-static PyObject* __pyx_print_kwargs = 0;
-#endif
-
-/* PrintOne.proto */
-static int __Pyx_PrintOne(PyObject* stream, PyObject *o);
-
 /* CIntFromPy.proto */
 static CYTHON_INLINE long __Pyx_PyInt_As_long(PyObject *);
 
@@ -1076,11 +1066,11 @@ static int __Pyx_check_binary_version(void);
 static int __Pyx_InitStrings(__Pyx_StringTabEntry *t);
 
 
-/* Module declarations from 'dsencrpt.dsencrypt' */
-#define __Pyx_MODULE_NAME "dsencrpt.dsencrypt"
-int __pyx_module_is_main_dsencrpt__dsencrypt = 0;
+/* Module declarations from 'dsencrypt.dsencrypt' */
+#define __Pyx_MODULE_NAME "dsencrypt.dsencrypt"
+int __pyx_module_is_main_dsencrypt__dsencrypt = 0;
 
-/* Implementation of 'dsencrpt.dsencrypt' */
+/* Implementation of 'dsencrypt.dsencrypt' */
 static PyObject *__pyx_builtin_object;
 static PyObject *__pyx_builtin_staticmethod;
 static PyObject *__pyx_builtin_ImportError;
@@ -1091,7 +1081,7 @@ static const char __pyx_k_[] = ".";
 static const char __pyx_k_e[] = "e";
 static const char __pyx_k_f[] = "f";
 static const char __pyx_k_r[] = "r+";
-static const char __pyx_k_s[] = "<%s>";
+static const char __pyx_k_s[] = "s";
 static const char __pyx_k_w[] = "w";
 static const char __pyx_k__9[] = "";
 static const char __pyx_k_bs[] = "bs";
@@ -1104,7 +1094,6 @@ static const char __pyx_k_AES[] = "AES";
 static const char __pyx_k_chr[] = "chr";
 static const char __pyx_k_doc[] = "__doc__";
 static const char __pyx_k_enc[] = "enc";
-static const char __pyx_k_end[] = "end";
 static const char __pyx_k_imp[] = "imp";
 static const char __pyx_k_key[] = "key";
 static const char __pyx_k_mod[] = "mod";
@@ -1113,7 +1102,6 @@ static const char __pyx_k_pad[] = "_pad";
 static const char __pyx_k_pyc[] = "pyc";
 static const char __pyx_k_pyo[] = "pyo";
 static const char __pyx_k_raw[] = "raw";
-static const char __pyx_k_s_2[] = "s";
 static const char __pyx_k_sys[] = "sys";
 static const char __pyx_k_code[] = "code";
 static const char __pyx_k_dict[] = "__dict__";
@@ -1131,7 +1119,6 @@ static const char __pyx_k_close[] = "close";
 static const char __pyx_k_enter[] = "__enter__";
 static const char __pyx_k_ispkg[] = "ispkg";
 static const char __pyx_k_loads[] = "loads";
-static const char __pyx_k_print[] = "print";
 static const char __pyx_k_unpad[] = "_unpad";
 static const char __pyx_k_write[] = "write";
 static const char __pyx_k_Crypto[] = "Crypto";
@@ -1195,7 +1182,6 @@ static const char __pyx_k_description[] = "description";
 static const char __pyx_k_find_module[] = "find_module";
 static const char __pyx_k_load_module[] = "load_module";
 static const char __pyx_k_DSImportHook[] = "DSImportHook";
-static const char __pyx_k_done_encrypt[] = "done encrypt";
 static const char __pyx_k_encrypt_file[] = "encrypt_file";
 static const char __pyx_k_staticmethod[] = "staticmethod";
 static const char __pyx_k_AES_RANDOM_IV[] = "AES_RANDOM_IV";
@@ -1209,15 +1195,15 @@ static const char __pyx_k_AESCipher__unpad[] = "AESCipher._unpad";
 static const char __pyx_k_AESCipher_decrypt[] = "AESCipher.decrypt";
 static const char __pyx_k_AESCipher_encrypt[] = "AESCipher.encrypt";
 static const char __pyx_k_ENCRYPT_START_STR[] = "ENCRYPT_START_STR";
-static const char __pyx_k_dsencrpt_dsencrypt[] = "dsencrpt.dsencrypt";
 static const char __pyx_k_DSImportHook___init[] = "DSImportHook.__init__";
+static const char __pyx_k_dsencrypt_dsencrypt[] = "dsencrypt.dsencrypt";
 static const char __pyx_k_DSImportHook_get_code[] = "DSImportHook.get_code";
 static const char __pyx_k_AESCipher_is_encrypt_py[] = "AESCipher.is_encrypt_py";
 static const char __pyx_k_DSImportHook_decrypt_py[] = "DSImportHook.decrypt_py";
 static const char __pyx_k_DSImportHook_is_package[] = "DSImportHook.is_package";
 static const char __pyx_k_DSImportHook_find_module[] = "DSImportHook.find_module";
 static const char __pyx_k_DSImportHook_load_module[] = "DSImportHook.load_module";
-static const char __pyx_k_opt_dsencrpt_dsencrypt_py[] = "/opt/dsencrpt/dsencrypt.py";
+static const char __pyx_k_opt_dsencrypt_dsencrypt_py[] = "/opt/dsencrypt/dsencrypt.py";
 static const char __pyx_k_DSImportHook_register_module[] = "DSImportHook.register_module";
 static const char __pyx_k_sdfsdfssdfjsdoiewrjsdioafjlekjw[] = "sdfsdfssdfjsdoiewrjsdioafjlekjw";
 static const char __pyx_k_use_imp_module_to_make_find_and[] = "\n    use imp module to  make find and load module\n    see doc: https://docs.python.org/2/library/imp.html#imp.find_module\n    ";
@@ -1267,14 +1253,12 @@ static PyObject *__pyx_n_s_description;
 static PyObject *__pyx_n_s_dict;
 static PyObject *__pyx_n_s_digest;
 static PyObject *__pyx_n_s_doc;
-static PyObject *__pyx_kp_s_done_encrypt;
-static PyObject *__pyx_n_s_dsencrpt_dsencrypt;
+static PyObject *__pyx_n_s_dsencrypt_dsencrypt;
 static PyObject *__pyx_n_s_e;
 static PyObject *__pyx_n_s_enc;
 static PyObject *__pyx_n_s_encode;
 static PyObject *__pyx_n_s_encrypt;
 static PyObject *__pyx_n_s_encrypt_file;
-static PyObject *__pyx_n_s_end;
 static PyObject *__pyx_n_s_endswith;
 static PyObject *__pyx_n_s_enter;
 static PyObject *__pyx_n_s_es;
@@ -1313,7 +1297,7 @@ static PyObject *__pyx_n_s_new;
 static PyObject *__pyx_n_s_new_module;
 static PyObject *__pyx_n_s_object;
 static PyObject *__pyx_n_s_open;
-static PyObject *__pyx_kp_s_opt_dsencrpt_dsencrypt_py;
+static PyObject *__pyx_kp_s_opt_dsencrypt_dsencrypt_py;
 static PyObject *__pyx_n_s_os;
 static PyObject *__pyx_n_s_package;
 static PyObject *__pyx_n_s_pad;
@@ -1321,7 +1305,6 @@ static PyObject *__pyx_n_s_path;
 static PyObject *__pyx_n_s_path_2;
 static PyObject *__pyx_n_s_pathname;
 static PyObject *__pyx_n_s_prepare;
-static PyObject *__pyx_n_s_print;
 static PyObject *__pyx_n_s_print_exc;
 static PyObject *__pyx_kp_s_py;
 static PyObject *__pyx_n_s_py_compile;
@@ -1335,8 +1318,7 @@ static PyObject *__pyx_n_s_read;
 static PyObject *__pyx_n_s_register_module;
 static PyObject *__pyx_n_s_replace;
 static PyObject *__pyx_n_s_rpartition;
-static PyObject *__pyx_kp_s_s;
-static PyObject *__pyx_n_s_s_2;
+static PyObject *__pyx_n_s_s;
 static PyObject *__pyx_n_s_sdfsdfssdfjsdoiewrjsdioafjlekjw;
 static PyObject *__pyx_n_s_self;
 static PyObject *__pyx_n_s_setdefault;
@@ -1350,21 +1332,21 @@ static PyObject *__pyx_n_s_unpad;
 static PyObject *__pyx_kp_s_use_imp_module_to_make_find_and;
 static PyObject *__pyx_n_s_w;
 static PyObject *__pyx_n_s_write;
-static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_2register_module(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_name, PyObject *__pyx_v_pathname, PyObject *__pyx_v_description, PyObject *__pyx_v_is_package); /* proto */
-static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_4find_module(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_name, PyObject *__pyx_v_path); /* proto */
-static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_6load_module(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_name); /* proto */
-static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_8get_code(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_pathname); /* proto */
-static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_10decrypt_py(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_code_str); /* proto */
-static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_12is_package(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *__pyx_v_name); /* proto */
-static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_2__defaults__(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
-static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_key, PyObject *__pyx_v_iv); /* proto */
-static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_2encrypt(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_raw); /* proto */
-static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_4decrypt(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_enc); /* proto */
-static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_6_pad(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_s); /* proto */
-static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_8is_encrypt_py(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_f); /* proto */
-static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_10_unpad(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_s); /* proto */
-static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_encrypt_file(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_file_); /* proto */
+static PyObject *__pyx_pf_9dsencrypt_9dsencrypt_12DSImportHook___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_9dsencrypt_9dsencrypt_12DSImportHook_2register_module(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_name, PyObject *__pyx_v_pathname, PyObject *__pyx_v_description, PyObject *__pyx_v_is_package); /* proto */
+static PyObject *__pyx_pf_9dsencrypt_9dsencrypt_12DSImportHook_4find_module(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_name, PyObject *__pyx_v_path); /* proto */
+static PyObject *__pyx_pf_9dsencrypt_9dsencrypt_12DSImportHook_6load_module(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_name); /* proto */
+static PyObject *__pyx_pf_9dsencrypt_9dsencrypt_12DSImportHook_8get_code(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_pathname); /* proto */
+static PyObject *__pyx_pf_9dsencrypt_9dsencrypt_12DSImportHook_10decrypt_py(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_code_str); /* proto */
+static PyObject *__pyx_pf_9dsencrypt_9dsencrypt_12DSImportHook_12is_package(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *__pyx_v_name); /* proto */
+static PyObject *__pyx_pf_9dsencrypt_9dsencrypt_2__defaults__(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
+static PyObject *__pyx_pf_9dsencrypt_9dsencrypt_9AESCipher___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_key, PyObject *__pyx_v_iv); /* proto */
+static PyObject *__pyx_pf_9dsencrypt_9dsencrypt_9AESCipher_2encrypt(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_raw); /* proto */
+static PyObject *__pyx_pf_9dsencrypt_9dsencrypt_9AESCipher_4decrypt(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_enc); /* proto */
+static PyObject *__pyx_pf_9dsencrypt_9dsencrypt_9AESCipher_6_pad(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_s); /* proto */
+static PyObject *__pyx_pf_9dsencrypt_9dsencrypt_9AESCipher_8is_encrypt_py(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_f); /* proto */
+static PyObject *__pyx_pf_9dsencrypt_9dsencrypt_9AESCipher_10_unpad(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_s); /* proto */
+static PyObject *__pyx_pf_9dsencrypt_9dsencrypt_encrypt_file(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_file_); /* proto */
 static PyObject *__pyx_int_0;
 static PyObject *__pyx_int_1;
 static PyObject *__pyx_int_8;
@@ -1413,7 +1395,7 @@ static PyObject *__pyx_codeobj__40;
 static PyObject *__pyx_codeobj__42;
 static PyObject *__pyx_codeobj__44;
 
-/* "dsencrpt/dsencrypt.py":26
+/* "dsencrypt/dsencrypt.py":26
  *     see doc: https://docs.python.org/2/library/imp.html#imp.find_module
  *     """
  *     def __init__(self):             # <<<<<<<<<<<<<<
@@ -1422,20 +1404,20 @@ static PyObject *__pyx_codeobj__44;
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_8dsencrpt_9dsencrypt_12DSImportHook_1__init__(PyObject *__pyx_self, PyObject *__pyx_v_self); /*proto*/
-static PyMethodDef __pyx_mdef_8dsencrpt_9dsencrypt_12DSImportHook_1__init__ = {"__init__", (PyCFunction)__pyx_pw_8dsencrpt_9dsencrypt_12DSImportHook_1__init__, METH_O, 0};
-static PyObject *__pyx_pw_8dsencrpt_9dsencrypt_12DSImportHook_1__init__(PyObject *__pyx_self, PyObject *__pyx_v_self) {
+static PyObject *__pyx_pw_9dsencrypt_9dsencrypt_12DSImportHook_1__init__(PyObject *__pyx_self, PyObject *__pyx_v_self); /*proto*/
+static PyMethodDef __pyx_mdef_9dsencrypt_9dsencrypt_12DSImportHook_1__init__ = {"__init__", (PyCFunction)__pyx_pw_9dsencrypt_9dsencrypt_12DSImportHook_1__init__, METH_O, 0};
+static PyObject *__pyx_pw_9dsencrypt_9dsencrypt_12DSImportHook_1__init__(PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__init__ (wrapper)", 0);
-  __pyx_r = __pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook___init__(__pyx_self, ((PyObject *)__pyx_v_self));
+  __pyx_r = __pyx_pf_9dsencrypt_9dsencrypt_12DSImportHook___init__(__pyx_self, ((PyObject *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
+static PyObject *__pyx_pf_9dsencrypt_9dsencrypt_12DSImportHook___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -1443,7 +1425,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook___init__(CYTHON_UN
   PyObject *__pyx_t_3 = NULL;
   __Pyx_RefNannySetupContext("__init__", 0);
 
-  /* "dsencrpt/dsencrypt.py":27
+  /* "dsencrypt/dsencrypt.py":27
  *     """
  *     def __init__(self):
  *         self._modules = {}             # <<<<<<<<<<<<<<
@@ -1455,7 +1437,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook___init__(CYTHON_UN
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_modules, __pyx_t_1) < 0) __PYX_ERR(0, 27, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "dsencrpt/dsencrypt.py":28
+  /* "dsencrypt/dsencrypt.py":28
  *     def __init__(self):
  *         self._modules = {}
  *         self.aes_cipher = AESCipher()             # <<<<<<<<<<<<<<
@@ -1485,7 +1467,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook___init__(CYTHON_UN
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_aes_cipher, __pyx_t_1) < 0) __PYX_ERR(0, 28, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "dsencrpt/dsencrypt.py":26
+  /* "dsencrypt/dsencrypt.py":26
  *     see doc: https://docs.python.org/2/library/imp.html#imp.find_module
  *     """
  *     def __init__(self):             # <<<<<<<<<<<<<<
@@ -1500,7 +1482,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook___init__(CYTHON_UN
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
-  __Pyx_AddTraceback("dsencrpt.dsencrypt.DSImportHook.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("dsencrypt.dsencrypt.DSImportHook.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -1508,7 +1490,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook___init__(CYTHON_UN
   return __pyx_r;
 }
 
-/* "dsencrpt/dsencrypt.py":30
+/* "dsencrypt/dsencrypt.py":30
  *         self.aes_cipher = AESCipher()
  * 
  *     def register_module(self, name, pathname, description, is_package=False):             # <<<<<<<<<<<<<<
@@ -1517,9 +1499,9 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook___init__(CYTHON_UN
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_8dsencrpt_9dsencrypt_12DSImportHook_3register_module(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_8dsencrpt_9dsencrypt_12DSImportHook_3register_module = {"register_module", (PyCFunction)__pyx_pw_8dsencrpt_9dsencrypt_12DSImportHook_3register_module, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_8dsencrpt_9dsencrypt_12DSImportHook_3register_module(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_9dsencrypt_9dsencrypt_12DSImportHook_3register_module(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_9dsencrypt_9dsencrypt_12DSImportHook_3register_module = {"register_module", (PyCFunction)__pyx_pw_9dsencrypt_9dsencrypt_12DSImportHook_3register_module, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_9dsencrypt_9dsencrypt_12DSImportHook_3register_module(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_name = 0;
   PyObject *__pyx_v_pathname = 0;
@@ -1594,25 +1576,25 @@ static PyObject *__pyx_pw_8dsencrpt_9dsencrypt_12DSImportHook_3register_module(P
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("register_module", 0, 4, 5, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 30, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("dsencrpt.dsencrypt.DSImportHook.register_module", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("dsencrypt.dsencrypt.DSImportHook.register_module", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_2register_module(__pyx_self, __pyx_v_self, __pyx_v_name, __pyx_v_pathname, __pyx_v_description, __pyx_v_is_package);
+  __pyx_r = __pyx_pf_9dsencrypt_9dsencrypt_12DSImportHook_2register_module(__pyx_self, __pyx_v_self, __pyx_v_name, __pyx_v_pathname, __pyx_v_description, __pyx_v_is_package);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_2register_module(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_name, PyObject *__pyx_v_pathname, PyObject *__pyx_v_description, PyObject *__pyx_v_is_package) {
+static PyObject *__pyx_pf_9dsencrypt_9dsencrypt_12DSImportHook_2register_module(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_name, PyObject *__pyx_v_pathname, PyObject *__pyx_v_description, PyObject *__pyx_v_is_package) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
   PyObject *__pyx_t_2 = NULL;
   __Pyx_RefNannySetupContext("register_module", 0);
 
-  /* "dsencrpt/dsencrypt.py":31
+  /* "dsencrypt/dsencrypt.py":31
  * 
  *     def register_module(self, name, pathname, description, is_package=False):
  *         self._modules[name] = (pathname, description, is_package)             # <<<<<<<<<<<<<<
@@ -1636,7 +1618,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_2register_module(C
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "dsencrpt/dsencrypt.py":30
+  /* "dsencrypt/dsencrypt.py":30
  *         self.aes_cipher = AESCipher()
  * 
  *     def register_module(self, name, pathname, description, is_package=False):             # <<<<<<<<<<<<<<
@@ -1650,7 +1632,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_2register_module(C
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_AddTraceback("dsencrpt.dsencrypt.DSImportHook.register_module", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("dsencrypt.dsencrypt.DSImportHook.register_module", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -1658,7 +1640,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_2register_module(C
   return __pyx_r;
 }
 
-/* "dsencrpt/dsencrypt.py":33
+/* "dsencrypt/dsencrypt.py":33
  *         self._modules[name] = (pathname, description, is_package)
  * 
  *     def find_module(self, name, path=None):             # <<<<<<<<<<<<<<
@@ -1667,9 +1649,9 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_2register_module(C
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_8dsencrpt_9dsencrypt_12DSImportHook_5find_module(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_8dsencrpt_9dsencrypt_12DSImportHook_5find_module = {"find_module", (PyCFunction)__pyx_pw_8dsencrpt_9dsencrypt_12DSImportHook_5find_module, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_8dsencrpt_9dsencrypt_12DSImportHook_5find_module(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_9dsencrypt_9dsencrypt_12DSImportHook_5find_module(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_9dsencrypt_9dsencrypt_12DSImportHook_5find_module = {"find_module", (PyCFunction)__pyx_pw_9dsencrypt_9dsencrypt_12DSImportHook_5find_module, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_9dsencrypt_9dsencrypt_12DSImportHook_5find_module(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_name = 0;
   PyObject *__pyx_v_path = 0;
@@ -1726,18 +1708,18 @@ static PyObject *__pyx_pw_8dsencrpt_9dsencrypt_12DSImportHook_5find_module(PyObj
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("find_module", 0, 2, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 33, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("dsencrpt.dsencrypt.DSImportHook.find_module", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("dsencrypt.dsencrypt.DSImportHook.find_module", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_4find_module(__pyx_self, __pyx_v_self, __pyx_v_name, __pyx_v_path);
+  __pyx_r = __pyx_pf_9dsencrypt_9dsencrypt_12DSImportHook_4find_module(__pyx_self, __pyx_v_self, __pyx_v_name, __pyx_v_path);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_4find_module(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_name, PyObject *__pyx_v_path) {
+static PyObject *__pyx_pf_9dsencrypt_9dsencrypt_12DSImportHook_4find_module(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_name, PyObject *__pyx_v_path) {
   PyObject *__pyx_v_full_name = NULL;
   PyObject *__pyx_v_f = NULL;
   PyObject *__pyx_v_pathname = NULL;
@@ -1760,7 +1742,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_4find_module(CYTHO
   __Pyx_RefNannySetupContext("find_module", 0);
   __Pyx_INCREF(__pyx_v_name);
 
-  /* "dsencrpt/dsencrypt.py":34
+  /* "dsencrypt/dsencrypt.py":34
  * 
  *     def find_module(self, name, path=None):
  *         try:             # <<<<<<<<<<<<<<
@@ -1776,7 +1758,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_4find_module(CYTHO
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "dsencrpt/dsencrypt.py":35
+      /* "dsencrypt/dsencrypt.py":35
  *     def find_module(self, name, path=None):
  *         try:
  *             full_name = name             # <<<<<<<<<<<<<<
@@ -1786,7 +1768,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_4find_module(CYTHO
       __Pyx_INCREF(__pyx_v_name);
       __pyx_v_full_name = __pyx_v_name;
 
-      /* "dsencrpt/dsencrypt.py":36
+      /* "dsencrypt/dsencrypt.py":36
  *         try:
  *             full_name = name
  *             if '.' in name:   # imp.find_module  can't work with dot             # <<<<<<<<<<<<<<
@@ -1797,7 +1779,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_4find_module(CYTHO
       __pyx_t_5 = (__pyx_t_4 != 0);
       if (__pyx_t_5) {
 
-        /* "dsencrpt/dsencrypt.py":37
+        /* "dsencrypt/dsencrypt.py":37
  *             full_name = name
  *             if '.' in name:   # imp.find_module  can't work with dot
  *                 if not path:             # <<<<<<<<<<<<<<
@@ -1808,7 +1790,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_4find_module(CYTHO
         __pyx_t_4 = ((!__pyx_t_5) != 0);
         if (__pyx_t_4) {
 
-          /* "dsencrpt/dsencrypt.py":38
+          /* "dsencrypt/dsencrypt.py":38
  *             if '.' in name:   # imp.find_module  can't work with dot
  *                 if not path:
  *                     return None             # <<<<<<<<<<<<<<
@@ -1820,7 +1802,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_4find_module(CYTHO
           __pyx_r = Py_None;
           goto __pyx_L7_try_return;
 
-          /* "dsencrpt/dsencrypt.py":37
+          /* "dsencrypt/dsencrypt.py":37
  *             full_name = name
  *             if '.' in name:   # imp.find_module  can't work with dot
  *                 if not path:             # <<<<<<<<<<<<<<
@@ -1829,7 +1811,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_4find_module(CYTHO
  */
         }
 
-        /* "dsencrpt/dsencrypt.py":39
+        /* "dsencrypt/dsencrypt.py":39
  *                 if not path:
  *                     return None
  *                 name = name.rpartition('.')[-1]             # <<<<<<<<<<<<<<
@@ -1847,7 +1829,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_4find_module(CYTHO
         __Pyx_DECREF_SET(__pyx_v_name, __pyx_t_6);
         __pyx_t_6 = 0;
 
-        /* "dsencrpt/dsencrypt.py":36
+        /* "dsencrypt/dsencrypt.py":36
  *         try:
  *             full_name = name
  *             if '.' in name:   # imp.find_module  can't work with dot             # <<<<<<<<<<<<<<
@@ -1856,7 +1838,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_4find_module(CYTHO
  */
       }
 
-      /* "dsencrpt/dsencrypt.py":40
+      /* "dsencrypt/dsencrypt.py":40
  *                     return None
  *                 name = name.rpartition('.')[-1]
  *             f, pathname, description = imp.find_module(name, path)             # <<<<<<<<<<<<<<
@@ -1977,7 +1959,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_4find_module(CYTHO
       __pyx_v_description = __pyx_t_7;
       __pyx_t_7 = 0;
 
-      /* "dsencrpt/dsencrypt.py":42
+      /* "dsencrypt/dsencrypt.py":42
  *             f, pathname, description = imp.find_module(name, path)
  * 
  *             if f:             # <<<<<<<<<<<<<<
@@ -1987,7 +1969,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_4find_module(CYTHO
       __pyx_t_4 = __Pyx_PyObject_IsTrue(__pyx_v_f); if (unlikely(__pyx_t_4 < 0)) __PYX_ERR(0, 42, __pyx_L3_error)
       if (__pyx_t_4) {
 
-        /* "dsencrpt/dsencrypt.py":43
+        /* "dsencrypt/dsencrypt.py":43
  * 
  *             if f:
  *                 if description[0].startswith('.py') and self.aes_cipher.is_encrypt_py(f):             # <<<<<<<<<<<<<<
@@ -2063,7 +2045,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_4find_module(CYTHO
         __pyx_L17_bool_binop_done:;
         if (__pyx_t_4) {
 
-          /* "dsencrpt/dsencrypt.py":44
+          /* "dsencrypt/dsencrypt.py":44
  *             if f:
  *                 if description[0].startswith('.py') and self.aes_cipher.is_encrypt_py(f):
  *                     self.register_module(full_name, pathname, description)             # <<<<<<<<<<<<<<
@@ -2122,7 +2104,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_4find_module(CYTHO
           __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
           __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-          /* "dsencrpt/dsencrypt.py":45
+          /* "dsencrypt/dsencrypt.py":45
  *                 if description[0].startswith('.py') and self.aes_cipher.is_encrypt_py(f):
  *                     self.register_module(full_name, pathname, description)
  *                     return self             # <<<<<<<<<<<<<<
@@ -2134,7 +2116,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_4find_module(CYTHO
           __pyx_r = __pyx_v_self;
           goto __pyx_L7_try_return;
 
-          /* "dsencrpt/dsencrypt.py":43
+          /* "dsencrypt/dsencrypt.py":43
  * 
  *             if f:
  *                 if description[0].startswith('.py') and self.aes_cipher.is_encrypt_py(f):             # <<<<<<<<<<<<<<
@@ -2143,7 +2125,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_4find_module(CYTHO
  */
         }
 
-        /* "dsencrpt/dsencrypt.py":42
+        /* "dsencrypt/dsencrypt.py":42
  *             f, pathname, description = imp.find_module(name, path)
  * 
  *             if f:             # <<<<<<<<<<<<<<
@@ -2152,7 +2134,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_4find_module(CYTHO
  */
       }
 
-      /* "dsencrpt/dsencrypt.py":34
+      /* "dsencrypt/dsencrypt.py":34
  * 
  *     def find_module(self, name, path=None):
  *         try:             # <<<<<<<<<<<<<<
@@ -2161,7 +2143,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_4find_module(CYTHO
  */
     }
 
-    /* "dsencrpt/dsencrypt.py":50
+    /* "dsencrypt/dsencrypt.py":50
  *             pass
  *         else:
  *             if f:             # <<<<<<<<<<<<<<
@@ -2172,7 +2154,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_4find_module(CYTHO
       __pyx_t_4 = __Pyx_PyObject_IsTrue(__pyx_v_f); if (unlikely(__pyx_t_4 < 0)) __PYX_ERR(0, 50, __pyx_L5_except_error)
       if (__pyx_t_4) {
 
-        /* "dsencrpt/dsencrypt.py":51
+        /* "dsencrypt/dsencrypt.py":51
  *         else:
  *             if f:
  *                 f.close()             # <<<<<<<<<<<<<<
@@ -2201,7 +2183,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_4find_module(CYTHO
         __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-        /* "dsencrpt/dsencrypt.py":50
+        /* "dsencrypt/dsencrypt.py":50
  *             pass
  *         else:
  *             if f:             # <<<<<<<<<<<<<<
@@ -2222,7 +2204,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_4find_module(CYTHO
     __Pyx_XDECREF(__pyx_t_10); __pyx_t_10 = 0;
     __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-    /* "dsencrpt/dsencrypt.py":47
+    /* "dsencrypt/dsencrypt.py":47
  *                     return self
  * 
  *         except ImportError,e:             # <<<<<<<<<<<<<<
@@ -2231,7 +2213,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_4find_module(CYTHO
  */
     __pyx_t_9 = __Pyx_PyErr_ExceptionMatches(__pyx_builtin_ImportError);
     if (__pyx_t_9) {
-      __Pyx_AddTraceback("dsencrpt.dsencrypt.DSImportHook.find_module", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("dsencrypt.dsencrypt.DSImportHook.find_module", __pyx_clineno, __pyx_lineno, __pyx_filename);
       if (__Pyx_GetException(&__pyx_t_6, &__pyx_t_10, &__pyx_t_7) < 0) __PYX_ERR(0, 47, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_10);
@@ -2246,7 +2228,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_4find_module(CYTHO
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "dsencrpt/dsencrypt.py":34
+    /* "dsencrypt/dsencrypt.py":34
  * 
  *     def find_module(self, name, path=None):
  *         try:             # <<<<<<<<<<<<<<
@@ -2275,7 +2257,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_4find_module(CYTHO
     __pyx_L10_try_end:;
   }
 
-  /* "dsencrpt/dsencrypt.py":52
+  /* "dsencrypt/dsencrypt.py":52
  *             if f:
  *                 f.close()
  *         return None             # <<<<<<<<<<<<<<
@@ -2287,7 +2269,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_4find_module(CYTHO
   __pyx_r = Py_None;
   goto __pyx_L0;
 
-  /* "dsencrpt/dsencrypt.py":33
+  /* "dsencrypt/dsencrypt.py":33
  *         self._modules[name] = (pathname, description, is_package)
  * 
  *     def find_module(self, name, path=None):             # <<<<<<<<<<<<<<
@@ -2302,7 +2284,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_4find_module(CYTHO
   __Pyx_XDECREF(__pyx_t_8);
   __Pyx_XDECREF(__pyx_t_10);
   __Pyx_XDECREF(__pyx_t_11);
-  __Pyx_AddTraceback("dsencrpt.dsencrypt.DSImportHook.find_module", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("dsencrypt.dsencrypt.DSImportHook.find_module", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_full_name);
@@ -2316,7 +2298,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_4find_module(CYTHO
   return __pyx_r;
 }
 
-/* "dsencrpt/dsencrypt.py":54
+/* "dsencrypt/dsencrypt.py":54
  *         return None
  * 
  *     def load_module(self, name):             # <<<<<<<<<<<<<<
@@ -2325,9 +2307,9 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_4find_module(CYTHO
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_8dsencrpt_9dsencrypt_12DSImportHook_7load_module(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_8dsencrpt_9dsencrypt_12DSImportHook_7load_module = {"load_module", (PyCFunction)__pyx_pw_8dsencrpt_9dsencrypt_12DSImportHook_7load_module, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_8dsencrpt_9dsencrypt_12DSImportHook_7load_module(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_9dsencrypt_9dsencrypt_12DSImportHook_7load_module(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_9dsencrypt_9dsencrypt_12DSImportHook_7load_module = {"load_module", (PyCFunction)__pyx_pw_9dsencrypt_9dsencrypt_12DSImportHook_7load_module, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_9dsencrypt_9dsencrypt_12DSImportHook_7load_module(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_name = 0;
   PyObject *__pyx_r = 0;
@@ -2372,18 +2354,18 @@ static PyObject *__pyx_pw_8dsencrpt_9dsencrypt_12DSImportHook_7load_module(PyObj
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("load_module", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 54, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("dsencrpt.dsencrypt.DSImportHook.load_module", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("dsencrypt.dsencrypt.DSImportHook.load_module", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_6load_module(__pyx_self, __pyx_v_self, __pyx_v_name);
+  __pyx_r = __pyx_pf_9dsencrypt_9dsencrypt_12DSImportHook_6load_module(__pyx_self, __pyx_v_self, __pyx_v_name);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_6load_module(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_name) {
+static PyObject *__pyx_pf_9dsencrypt_9dsencrypt_12DSImportHook_6load_module(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_name) {
   PyObject *__pyx_v_pathname = NULL;
   CYTHON_UNUSED PyObject *__pyx_v_description = NULL;
   PyObject *__pyx_v_is_package = NULL;
@@ -2407,7 +2389,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_6load_module(CYTHO
   int __pyx_t_13;
   __Pyx_RefNannySetupContext("load_module", 0);
 
-  /* "dsencrpt/dsencrypt.py":55
+  /* "dsencrypt/dsencrypt.py":55
  * 
  *     def load_module(self, name):
  *         if name in sys.modules:             # <<<<<<<<<<<<<<
@@ -2424,7 +2406,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_6load_module(CYTHO
   __pyx_t_4 = (__pyx_t_3 != 0);
   if (__pyx_t_4) {
 
-    /* "dsencrpt/dsencrypt.py":56
+    /* "dsencrypt/dsencrypt.py":56
  *     def load_module(self, name):
  *         if name in sys.modules:
  *             return sys.modules[name]             # <<<<<<<<<<<<<<
@@ -2444,7 +2426,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_6load_module(CYTHO
     __pyx_t_2 = 0;
     goto __pyx_L0;
 
-    /* "dsencrpt/dsencrypt.py":55
+    /* "dsencrypt/dsencrypt.py":55
  * 
  *     def load_module(self, name):
  *         if name in sys.modules:             # <<<<<<<<<<<<<<
@@ -2453,7 +2435,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_6load_module(CYTHO
  */
   }
 
-  /* "dsencrpt/dsencrypt.py":57
+  /* "dsencrypt/dsencrypt.py":57
  *         if name in sys.modules:
  *             return sys.modules[name]
  *         if name not in self._modules:             # <<<<<<<<<<<<<<
@@ -2467,7 +2449,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_6load_module(CYTHO
   __pyx_t_3 = (__pyx_t_4 != 0);
   if (__pyx_t_3) {
 
-    /* "dsencrpt/dsencrypt.py":58
+    /* "dsencrypt/dsencrypt.py":58
  *             return sys.modules[name]
  *         if name not in self._modules:
  *             raise ImportError             # <<<<<<<<<<<<<<
@@ -2477,7 +2459,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_6load_module(CYTHO
     __Pyx_Raise(__pyx_builtin_ImportError, 0, 0, 0);
     __PYX_ERR(0, 58, __pyx_L1_error)
 
-    /* "dsencrpt/dsencrypt.py":57
+    /* "dsencrypt/dsencrypt.py":57
  *         if name in sys.modules:
  *             return sys.modules[name]
  *         if name not in self._modules:             # <<<<<<<<<<<<<<
@@ -2486,7 +2468,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_6load_module(CYTHO
  */
   }
 
-  /* "dsencrpt/dsencrypt.py":59
+  /* "dsencrypt/dsencrypt.py":59
  *         if name not in self._modules:
  *             raise ImportError
  *         try:             # <<<<<<<<<<<<<<
@@ -2502,7 +2484,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_6load_module(CYTHO
     __Pyx_XGOTREF(__pyx_t_7);
     /*try:*/ {
 
-      /* "dsencrpt/dsencrypt.py":60
+      /* "dsencrypt/dsencrypt.py":60
  *             raise ImportError
  *         try:
  *             pathname, description, is_package = self._modules[name]             # <<<<<<<<<<<<<<
@@ -2578,7 +2560,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_6load_module(CYTHO
       __pyx_v_is_package = __pyx_t_9;
       __pyx_t_9 = 0;
 
-      /* "dsencrpt/dsencrypt.py":61
+      /* "dsencrypt/dsencrypt.py":61
  *         try:
  *             pathname, description, is_package = self._modules[name]
  *             code = self.get_code(pathname)             # <<<<<<<<<<<<<<
@@ -2633,7 +2615,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_6load_module(CYTHO
       __pyx_v_code = __pyx_t_1;
       __pyx_t_1 = 0;
 
-      /* "dsencrpt/dsencrypt.py":62
+      /* "dsencrypt/dsencrypt.py":62
  *             pathname, description, is_package = self._modules[name]
  *             code = self.get_code(pathname)
  *             ispkg = is_package             # <<<<<<<<<<<<<<
@@ -2643,7 +2625,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_6load_module(CYTHO
       __Pyx_INCREF(__pyx_v_is_package);
       __pyx_v_ispkg = __pyx_v_is_package;
 
-      /* "dsencrpt/dsencrypt.py":63
+      /* "dsencrypt/dsencrypt.py":63
  *             code = self.get_code(pathname)
  *             ispkg = is_package
  *             if ispkg:             # <<<<<<<<<<<<<<
@@ -2653,7 +2635,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_6load_module(CYTHO
       __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_v_ispkg); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 63, __pyx_L5_error)
       if (__pyx_t_3) {
 
-        /* "dsencrpt/dsencrypt.py":64
+        /* "dsencrypt/dsencrypt.py":64
  *             ispkg = is_package
  *             if ispkg:
  *                 code = marshal.loads(code[8:])             # <<<<<<<<<<<<<<
@@ -2716,7 +2698,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_6load_module(CYTHO
         __Pyx_DECREF_SET(__pyx_v_code, __pyx_t_1);
         __pyx_t_1 = 0;
 
-        /* "dsencrpt/dsencrypt.py":63
+        /* "dsencrypt/dsencrypt.py":63
  *             code = self.get_code(pathname)
  *             ispkg = is_package
  *             if ispkg:             # <<<<<<<<<<<<<<
@@ -2726,7 +2708,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_6load_module(CYTHO
         goto __pyx_L15;
       }
 
-      /* "dsencrpt/dsencrypt.py":66
+      /* "dsencrypt/dsencrypt.py":66
  *                 code = marshal.loads(code[8:])
  *             else:
  *                 if pathname.endswith(('pyc', 'pyo')):             # <<<<<<<<<<<<<<
@@ -2743,7 +2725,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_6load_module(CYTHO
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         if (__pyx_t_3) {
 
-          /* "dsencrpt/dsencrypt.py":67
+          /* "dsencrypt/dsencrypt.py":67
  *             else:
  *                 if pathname.endswith(('pyc', 'pyo')):
  *                     code = marshal.loads(code[8:])             # <<<<<<<<<<<<<<
@@ -2806,7 +2788,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_6load_module(CYTHO
           __Pyx_DECREF_SET(__pyx_v_code, __pyx_t_2);
           __pyx_t_2 = 0;
 
-          /* "dsencrpt/dsencrypt.py":66
+          /* "dsencrypt/dsencrypt.py":66
  *                 code = marshal.loads(code[8:])
  *             else:
  *                 if pathname.endswith(('pyc', 'pyo')):             # <<<<<<<<<<<<<<
@@ -2817,12 +2799,12 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_6load_module(CYTHO
       }
       __pyx_L15:;
 
-      /* "dsencrpt/dsencrypt.py":69
+      /* "dsencrypt/dsencrypt.py":69
  *                     code = marshal.loads(code[8:])
  * 
  *             mod = sys.modules.setdefault(name, imp.new_module(name))             # <<<<<<<<<<<<<<
  *             mod.__name__ = name
- *             mod.__file__ = "<%s>" % self._modules[name][0]
+ *             mod.__file__ = pathname
  */
       __pyx_t_10 = __Pyx_GetModuleGlobalName(__pyx_n_s_sys); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 69, __pyx_L5_error)
       __Pyx_GOTREF(__pyx_t_10);
@@ -2930,47 +2912,35 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_6load_module(CYTHO
       __pyx_v_mod = __pyx_t_2;
       __pyx_t_2 = 0;
 
-      /* "dsencrpt/dsencrypt.py":70
+      /* "dsencrypt/dsencrypt.py":70
  * 
  *             mod = sys.modules.setdefault(name, imp.new_module(name))
  *             mod.__name__ = name             # <<<<<<<<<<<<<<
- *             mod.__file__ = "<%s>" % self._modules[name][0]
+ *             mod.__file__ = pathname
  *             mod.__loader__ = self
  */
       if (__Pyx_PyObject_SetAttrStr(__pyx_v_mod, __pyx_n_s_name_2, __pyx_v_name) < 0) __PYX_ERR(0, 70, __pyx_L5_error)
 
-      /* "dsencrpt/dsencrypt.py":71
+      /* "dsencrypt/dsencrypt.py":71
  *             mod = sys.modules.setdefault(name, imp.new_module(name))
  *             mod.__name__ = name
- *             mod.__file__ = "<%s>" % self._modules[name][0]             # <<<<<<<<<<<<<<
+ *             mod.__file__ = pathname             # <<<<<<<<<<<<<<
  *             mod.__loader__ = self
  *             if ispkg:
  */
-      __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_modules); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 71, __pyx_L5_error)
-      __Pyx_GOTREF(__pyx_t_2);
-      __pyx_t_10 = PyObject_GetItem(__pyx_t_2, __pyx_v_name); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 71, __pyx_L5_error)
-      __Pyx_GOTREF(__pyx_t_10);
-      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      __pyx_t_2 = __Pyx_GetItemInt(__pyx_t_10, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 71, __pyx_L5_error)
-      __Pyx_GOTREF(__pyx_t_2);
-      __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-      __pyx_t_10 = __Pyx_PyString_Format(__pyx_kp_s_s, __pyx_t_2); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 71, __pyx_L5_error)
-      __Pyx_GOTREF(__pyx_t_10);
-      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      if (__Pyx_PyObject_SetAttrStr(__pyx_v_mod, __pyx_n_s_file_2, __pyx_t_10) < 0) __PYX_ERR(0, 71, __pyx_L5_error)
-      __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
+      if (__Pyx_PyObject_SetAttrStr(__pyx_v_mod, __pyx_n_s_file_2, __pyx_v_pathname) < 0) __PYX_ERR(0, 71, __pyx_L5_error)
 
-      /* "dsencrpt/dsencrypt.py":72
+      /* "dsencrypt/dsencrypt.py":72
  *             mod.__name__ = name
- *             mod.__file__ = "<%s>" % self._modules[name][0]
+ *             mod.__file__ = pathname
  *             mod.__loader__ = self             # <<<<<<<<<<<<<<
  *             if ispkg:
  *                 mod.__path__ = []
  */
       if (__Pyx_PyObject_SetAttrStr(__pyx_v_mod, __pyx_n_s_loader, __pyx_v_self) < 0) __PYX_ERR(0, 72, __pyx_L5_error)
 
-      /* "dsencrpt/dsencrypt.py":73
- *             mod.__file__ = "<%s>" % self._modules[name][0]
+      /* "dsencrypt/dsencrypt.py":73
+ *             mod.__file__ = pathname
  *             mod.__loader__ = self
  *             if ispkg:             # <<<<<<<<<<<<<<
  *                 mod.__path__ = []
@@ -2979,19 +2949,19 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_6load_module(CYTHO
       __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_v_ispkg); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 73, __pyx_L5_error)
       if (__pyx_t_3) {
 
-        /* "dsencrpt/dsencrypt.py":74
+        /* "dsencrypt/dsencrypt.py":74
  *             mod.__loader__ = self
  *             if ispkg:
  *                 mod.__path__ = []             # <<<<<<<<<<<<<<
  *                 mod.__package__ = name
  *             else:
  */
-        __pyx_t_10 = PyList_New(0); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 74, __pyx_L5_error)
-        __Pyx_GOTREF(__pyx_t_10);
-        if (__Pyx_PyObject_SetAttrStr(__pyx_v_mod, __pyx_n_s_path_2, __pyx_t_10) < 0) __PYX_ERR(0, 74, __pyx_L5_error)
-        __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
+        __pyx_t_2 = PyList_New(0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 74, __pyx_L5_error)
+        __Pyx_GOTREF(__pyx_t_2);
+        if (__Pyx_PyObject_SetAttrStr(__pyx_v_mod, __pyx_n_s_path_2, __pyx_t_2) < 0) __PYX_ERR(0, 74, __pyx_L5_error)
+        __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-        /* "dsencrpt/dsencrypt.py":75
+        /* "dsencrypt/dsencrypt.py":75
  *             if ispkg:
  *                 mod.__path__ = []
  *                 mod.__package__ = name             # <<<<<<<<<<<<<<
@@ -3000,8 +2970,8 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_6load_module(CYTHO
  */
         if (__Pyx_PyObject_SetAttrStr(__pyx_v_mod, __pyx_n_s_package, __pyx_v_name) < 0) __PYX_ERR(0, 75, __pyx_L5_error)
 
-        /* "dsencrpt/dsencrypt.py":73
- *             mod.__file__ = "<%s>" % self._modules[name][0]
+        /* "dsencrypt/dsencrypt.py":73
+ *             mod.__file__ = pathname
  *             mod.__loader__ = self
  *             if ispkg:             # <<<<<<<<<<<<<<
  *                 mod.__path__ = []
@@ -3010,7 +2980,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_6load_module(CYTHO
         goto __pyx_L17;
       }
 
-      /* "dsencrpt/dsencrypt.py":77
+      /* "dsencrypt/dsencrypt.py":77
  *                 mod.__package__ = name
  *             else:
  *                 mod.__package__ = name.rpartition('.')[0]             # <<<<<<<<<<<<<<
@@ -3018,35 +2988,35 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_6load_module(CYTHO
  * 
  */
       /*else*/ {
-        __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_v_name, __pyx_n_s_rpartition); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 77, __pyx_L5_error)
-        __Pyx_GOTREF(__pyx_t_10);
-        __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_10, __pyx_tuple__8, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 77, __pyx_L5_error)
+        __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_name, __pyx_n_s_rpartition); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 77, __pyx_L5_error)
         __Pyx_GOTREF(__pyx_t_2);
-        __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-        __pyx_t_10 = __Pyx_GetItemInt(__pyx_t_2, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 77, __pyx_L5_error)
+        __pyx_t_10 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_tuple__8, NULL); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 77, __pyx_L5_error)
         __Pyx_GOTREF(__pyx_t_10);
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-        if (__Pyx_PyObject_SetAttrStr(__pyx_v_mod, __pyx_n_s_package, __pyx_t_10) < 0) __PYX_ERR(0, 77, __pyx_L5_error)
+        __pyx_t_2 = __Pyx_GetItemInt(__pyx_t_10, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 77, __pyx_L5_error)
+        __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
+        if (__Pyx_PyObject_SetAttrStr(__pyx_v_mod, __pyx_n_s_package, __pyx_t_2) < 0) __PYX_ERR(0, 77, __pyx_L5_error)
+        __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
       }
       __pyx_L17:;
 
-      /* "dsencrpt/dsencrypt.py":78
+      /* "dsencrypt/dsencrypt.py":78
  *             else:
  *                 mod.__package__ = name.rpartition('.')[0]
  *             exec(code, mod.__dict__)             # <<<<<<<<<<<<<<
  * 
  *             return mod
  */
-      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_v_mod, __pyx_n_s_dict); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 78, __pyx_L5_error)
-      __Pyx_GOTREF(__pyx_t_10);
-      __pyx_t_2 = __Pyx_PyExec3(__pyx_v_code, __pyx_t_10, 0);
-      __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 78, __pyx_L5_error)
+      __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_mod, __pyx_n_s_dict); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 78, __pyx_L5_error)
       __Pyx_GOTREF(__pyx_t_2);
+      __pyx_t_10 = __Pyx_PyExec3(__pyx_v_code, __pyx_t_2, 0);
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+      if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 78, __pyx_L5_error)
+      __Pyx_GOTREF(__pyx_t_10);
+      __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
 
-      /* "dsencrpt/dsencrypt.py":80
+      /* "dsencrypt/dsencrypt.py":80
  *             exec(code, mod.__dict__)
  * 
  *             return mod             # <<<<<<<<<<<<<<
@@ -3058,7 +3028,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_6load_module(CYTHO
       __pyx_r = __pyx_v_mod;
       goto __pyx_L9_try_return;
 
-      /* "dsencrpt/dsencrypt.py":59
+      /* "dsencrypt/dsencrypt.py":59
  *         if name not in self._modules:
  *             raise ImportError
  *         try:             # <<<<<<<<<<<<<<
@@ -3072,10 +3042,10 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_6load_module(CYTHO
     __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
     __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
     __Pyx_XDECREF(__pyx_t_12); __pyx_t_12 = 0;
-    __Pyx_XDECREF(__pyx_t_10); __pyx_t_10 = 0;
     __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __Pyx_XDECREF(__pyx_t_10); __pyx_t_10 = 0;
 
-    /* "dsencrpt/dsencrypt.py":81
+    /* "dsencrypt/dsencrypt.py":81
  * 
  *             return mod
  *         except Exception:             # <<<<<<<<<<<<<<
@@ -3084,13 +3054,13 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_6load_module(CYTHO
  */
     __pyx_t_13 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_13) {
-      __Pyx_AddTraceback("dsencrpt.dsencrypt.DSImportHook.load_module", __pyx_clineno, __pyx_lineno, __pyx_filename);
-      if (__Pyx_GetException(&__pyx_t_2, &__pyx_t_10, &__pyx_t_12) < 0) __PYX_ERR(0, 81, __pyx_L7_except_error)
-      __Pyx_GOTREF(__pyx_t_2);
+      __Pyx_AddTraceback("dsencrypt.dsencrypt.DSImportHook.load_module", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      if (__Pyx_GetException(&__pyx_t_10, &__pyx_t_2, &__pyx_t_12) < 0) __PYX_ERR(0, 81, __pyx_L7_except_error)
       __Pyx_GOTREF(__pyx_t_10);
+      __Pyx_GOTREF(__pyx_t_2);
       __Pyx_GOTREF(__pyx_t_12);
 
-      /* "dsencrpt/dsencrypt.py":82
+      /* "dsencrypt/dsencrypt.py":82
  *             return mod
  *         except Exception:
  *             traceback.print_exc()             # <<<<<<<<<<<<<<
@@ -3122,7 +3092,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_6load_module(CYTHO
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
 
-      /* "dsencrpt/dsencrypt.py":83
+      /* "dsencrypt/dsencrypt.py":83
  *         except Exception:
  *             traceback.print_exc()
  *             raise ImportError             # <<<<<<<<<<<<<<
@@ -3135,7 +3105,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_6load_module(CYTHO
     goto __pyx_L7_except_error;
     __pyx_L7_except_error:;
 
-    /* "dsencrpt/dsencrypt.py":59
+    /* "dsencrypt/dsencrypt.py":59
  *         if name not in self._modules:
  *             raise ImportError
  *         try:             # <<<<<<<<<<<<<<
@@ -3157,7 +3127,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_6load_module(CYTHO
     goto __pyx_L0;
   }
 
-  /* "dsencrpt/dsencrypt.py":54
+  /* "dsencrypt/dsencrypt.py":54
  *         return None
  * 
  *     def load_module(self, name):             # <<<<<<<<<<<<<<
@@ -3173,7 +3143,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_6load_module(CYTHO
   __Pyx_XDECREF(__pyx_t_9);
   __Pyx_XDECREF(__pyx_t_10);
   __Pyx_XDECREF(__pyx_t_12);
-  __Pyx_AddTraceback("dsencrpt.dsencrypt.DSImportHook.load_module", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("dsencrypt.dsencrypt.DSImportHook.load_module", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_pathname);
@@ -3187,7 +3157,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_6load_module(CYTHO
   return __pyx_r;
 }
 
-/* "dsencrpt/dsencrypt.py":85
+/* "dsencrypt/dsencrypt.py":85
  *             raise ImportError
  * 
  *     def get_code(self, pathname):             # <<<<<<<<<<<<<<
@@ -3196,9 +3166,9 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_6load_module(CYTHO
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_8dsencrpt_9dsencrypt_12DSImportHook_9get_code(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_8dsencrpt_9dsencrypt_12DSImportHook_9get_code = {"get_code", (PyCFunction)__pyx_pw_8dsencrpt_9dsencrypt_12DSImportHook_9get_code, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_8dsencrpt_9dsencrypt_12DSImportHook_9get_code(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_9dsencrypt_9dsencrypt_12DSImportHook_9get_code(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_9dsencrypt_9dsencrypt_12DSImportHook_9get_code = {"get_code", (PyCFunction)__pyx_pw_9dsencrypt_9dsencrypt_12DSImportHook_9get_code, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_9dsencrypt_9dsencrypt_12DSImportHook_9get_code(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_pathname = 0;
   PyObject *__pyx_r = 0;
@@ -3243,18 +3213,18 @@ static PyObject *__pyx_pw_8dsencrpt_9dsencrypt_12DSImportHook_9get_code(PyObject
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("get_code", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 85, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("dsencrpt.dsencrypt.DSImportHook.get_code", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("dsencrypt.dsencrypt.DSImportHook.get_code", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_8get_code(__pyx_self, __pyx_v_self, __pyx_v_pathname);
+  __pyx_r = __pyx_pf_9dsencrypt_9dsencrypt_12DSImportHook_8get_code(__pyx_self, __pyx_v_self, __pyx_v_pathname);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_8get_code(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_pathname) {
+static PyObject *__pyx_pf_9dsencrypt_9dsencrypt_12DSImportHook_8get_code(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_pathname) {
   PyObject *__pyx_v_f = NULL;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -3265,7 +3235,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_8get_code(CYTHON_U
   PyObject *__pyx_t_5 = NULL;
   __Pyx_RefNannySetupContext("get_code", 0);
 
-  /* "dsencrpt/dsencrypt.py":86
+  /* "dsencrypt/dsencrypt.py":86
  * 
  *     def get_code(self, pathname):
  *         f = open(pathname)             # <<<<<<<<<<<<<<
@@ -3283,7 +3253,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_8get_code(CYTHON_U
   __pyx_v_f = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "dsencrpt/dsencrypt.py":87
+  /* "dsencrypt/dsencrypt.py":87
  *     def get_code(self, pathname):
  *         f = open(pathname)
  *         return self.decrypt_py(f.read())             # <<<<<<<<<<<<<<
@@ -3363,7 +3333,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_8get_code(CYTHON_U
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "dsencrpt/dsencrypt.py":85
+  /* "dsencrypt/dsencrypt.py":85
  *             raise ImportError
  * 
  *     def get_code(self, pathname):             # <<<<<<<<<<<<<<
@@ -3378,7 +3348,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_8get_code(CYTHON_U
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
-  __Pyx_AddTraceback("dsencrpt.dsencrypt.DSImportHook.get_code", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("dsencrypt.dsencrypt.DSImportHook.get_code", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_f);
@@ -3387,7 +3357,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_8get_code(CYTHON_U
   return __pyx_r;
 }
 
-/* "dsencrpt/dsencrypt.py":89
+/* "dsencrypt/dsencrypt.py":89
  *         return self.decrypt_py(f.read())
  * 
  *     def decrypt_py(self, code_str):             # <<<<<<<<<<<<<<
@@ -3396,9 +3366,9 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_8get_code(CYTHON_U
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_8dsencrpt_9dsencrypt_12DSImportHook_11decrypt_py(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_8dsencrpt_9dsencrypt_12DSImportHook_11decrypt_py = {"decrypt_py", (PyCFunction)__pyx_pw_8dsencrpt_9dsencrypt_12DSImportHook_11decrypt_py, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_8dsencrpt_9dsencrypt_12DSImportHook_11decrypt_py(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_9dsencrypt_9dsencrypt_12DSImportHook_11decrypt_py(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_9dsencrypt_9dsencrypt_12DSImportHook_11decrypt_py = {"decrypt_py", (PyCFunction)__pyx_pw_9dsencrypt_9dsencrypt_12DSImportHook_11decrypt_py, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_9dsencrypt_9dsencrypt_12DSImportHook_11decrypt_py(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_code_str = 0;
   PyObject *__pyx_r = 0;
@@ -3443,18 +3413,18 @@ static PyObject *__pyx_pw_8dsencrpt_9dsencrypt_12DSImportHook_11decrypt_py(PyObj
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("decrypt_py", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 89, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("dsencrpt.dsencrypt.DSImportHook.decrypt_py", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("dsencrypt.dsencrypt.DSImportHook.decrypt_py", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_10decrypt_py(__pyx_self, __pyx_v_self, __pyx_v_code_str);
+  __pyx_r = __pyx_pf_9dsencrypt_9dsencrypt_12DSImportHook_10decrypt_py(__pyx_self, __pyx_v_self, __pyx_v_code_str);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_10decrypt_py(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_code_str) {
+static PyObject *__pyx_pf_9dsencrypt_9dsencrypt_12DSImportHook_10decrypt_py(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_code_str) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -3467,7 +3437,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_10decrypt_py(CYTHO
   PyObject *__pyx_t_8 = NULL;
   __Pyx_RefNannySetupContext("decrypt_py", 0);
 
-  /* "dsencrpt/dsencrypt.py":90
+  /* "dsencrypt/dsencrypt.py":90
  * 
  *     def decrypt_py(self, code_str):
  *         return self.aes_cipher.decrypt(code_str.replace(ENCRYPT_START_STR, '', 1))             # <<<<<<<<<<<<<<
@@ -3584,7 +3554,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_10decrypt_py(CYTHO
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "dsencrpt/dsencrypt.py":89
+  /* "dsencrypt/dsencrypt.py":89
  *         return self.decrypt_py(f.read())
  * 
  *     def decrypt_py(self, code_str):             # <<<<<<<<<<<<<<
@@ -3601,7 +3571,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_10decrypt_py(CYTHO
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_6);
   __Pyx_XDECREF(__pyx_t_8);
-  __Pyx_AddTraceback("dsencrpt.dsencrypt.DSImportHook.decrypt_py", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("dsencrypt.dsencrypt.DSImportHook.decrypt_py", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -3609,7 +3579,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_10decrypt_py(CYTHO
   return __pyx_r;
 }
 
-/* "dsencrpt/dsencrypt.py":92
+/* "dsencrypt/dsencrypt.py":92
  *         return self.aes_cipher.decrypt(code_str.replace(ENCRYPT_START_STR, '', 1))
  * 
  *     def is_package(self, name):             # <<<<<<<<<<<<<<
@@ -3618,9 +3588,9 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_10decrypt_py(CYTHO
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_8dsencrpt_9dsencrypt_12DSImportHook_13is_package(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_8dsencrpt_9dsencrypt_12DSImportHook_13is_package = {"is_package", (PyCFunction)__pyx_pw_8dsencrpt_9dsencrypt_12DSImportHook_13is_package, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_8dsencrpt_9dsencrypt_12DSImportHook_13is_package(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_9dsencrypt_9dsencrypt_12DSImportHook_13is_package(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_9dsencrypt_9dsencrypt_12DSImportHook_13is_package = {"is_package", (PyCFunction)__pyx_pw_9dsencrypt_9dsencrypt_12DSImportHook_13is_package, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_9dsencrypt_9dsencrypt_12DSImportHook_13is_package(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   CYTHON_UNUSED PyObject *__pyx_v_self = 0;
   CYTHON_UNUSED PyObject *__pyx_v_name = 0;
   PyObject *__pyx_r = 0;
@@ -3665,23 +3635,23 @@ static PyObject *__pyx_pw_8dsencrpt_9dsencrypt_12DSImportHook_13is_package(PyObj
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("is_package", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 92, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("dsencrpt.dsencrypt.DSImportHook.is_package", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("dsencrypt.dsencrypt.DSImportHook.is_package", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_12is_package(__pyx_self, __pyx_v_self, __pyx_v_name);
+  __pyx_r = __pyx_pf_9dsencrypt_9dsencrypt_12DSImportHook_12is_package(__pyx_self, __pyx_v_self, __pyx_v_name);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_12is_package(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *__pyx_v_name) {
+static PyObject *__pyx_pf_9dsencrypt_9dsencrypt_12DSImportHook_12is_package(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *__pyx_v_name) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("is_package", 0);
 
-  /* "dsencrpt/dsencrypt.py":93
+  /* "dsencrypt/dsencrypt.py":93
  * 
  *     def is_package(self, name):
  *         return False             # <<<<<<<<<<<<<<
@@ -3693,7 +3663,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_12is_package(CYTHO
   __pyx_r = Py_False;
   goto __pyx_L0;
 
-  /* "dsencrpt/dsencrypt.py":92
+  /* "dsencrypt/dsencrypt.py":92
  *         return self.aes_cipher.decrypt(code_str.replace(ENCRYPT_START_STR, '', 1))
  * 
  *     def is_package(self, name):             # <<<<<<<<<<<<<<
@@ -3708,7 +3678,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_12is_package(CYTHO
   return __pyx_r;
 }
 
-/* "dsencrpt/dsencrypt.py":99
+/* "dsencrypt/dsencrypt.py":99
  * class AESCipher(object):
  * 
  *     def __init__(self, key=AES_RANDOM_KEY, iv=AES_RANDOM_IV):             # <<<<<<<<<<<<<<
@@ -3716,7 +3686,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_12DSImportHook_12is_package(CYTHO
  *         self.key = hashlib.sha256(key.encode()).digest()
  */
 
-static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_2__defaults__(CYTHON_UNUSED PyObject *__pyx_self) {
+static PyObject *__pyx_pf_9dsencrypt_9dsencrypt_2__defaults__(CYTHON_UNUSED PyObject *__pyx_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -3747,7 +3717,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_2__defaults__(CYTHON_UNUSED PyObj
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_AddTraceback("dsencrpt.dsencrypt.__defaults__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("dsencrypt.dsencrypt.__defaults__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -3756,9 +3726,9 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_2__defaults__(CYTHON_UNUSED PyObj
 }
 
 /* Python wrapper */
-static PyObject *__pyx_pw_8dsencrpt_9dsencrypt_9AESCipher_1__init__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_8dsencrpt_9dsencrypt_9AESCipher_1__init__ = {"__init__", (PyCFunction)__pyx_pw_8dsencrpt_9dsencrypt_9AESCipher_1__init__, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_8dsencrpt_9dsencrypt_9AESCipher_1__init__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_9dsencrypt_9dsencrypt_9AESCipher_1__init__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_9dsencrypt_9dsencrypt_9AESCipher_1__init__ = {"__init__", (PyCFunction)__pyx_pw_9dsencrypt_9dsencrypt_9AESCipher_1__init__, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_9dsencrypt_9dsencrypt_9AESCipher_1__init__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_key = 0;
   PyObject *__pyx_v_iv = 0;
@@ -3817,18 +3787,18 @@ static PyObject *__pyx_pw_8dsencrpt_9dsencrypt_9AESCipher_1__init__(PyObject *__
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("__init__", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 99, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("dsencrpt.dsencrypt.AESCipher.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("dsencrypt.dsencrypt.AESCipher.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_8dsencrpt_9dsencrypt_9AESCipher___init__(__pyx_self, __pyx_v_self, __pyx_v_key, __pyx_v_iv);
+  __pyx_r = __pyx_pf_9dsencrypt_9dsencrypt_9AESCipher___init__(__pyx_self, __pyx_v_self, __pyx_v_key, __pyx_v_iv);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_key, PyObject *__pyx_v_iv) {
+static PyObject *__pyx_pf_9dsencrypt_9dsencrypt_9AESCipher___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_key, PyObject *__pyx_v_iv) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -3841,7 +3811,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher___init__(CYTHON_UNUSED
   PyObject *__pyx_t_8 = NULL;
   __Pyx_RefNannySetupContext("__init__", 0);
 
-  /* "dsencrpt/dsencrypt.py":100
+  /* "dsencrypt/dsencrypt.py":100
  * 
  *     def __init__(self, key=AES_RANDOM_KEY, iv=AES_RANDOM_IV):
  *         self.bs = 32             # <<<<<<<<<<<<<<
@@ -3850,7 +3820,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher___init__(CYTHON_UNUSED
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_bs, __pyx_int_32) < 0) __PYX_ERR(0, 100, __pyx_L1_error)
 
-  /* "dsencrpt/dsencrypt.py":101
+  /* "dsencrypt/dsencrypt.py":101
  *     def __init__(self, key=AES_RANDOM_KEY, iv=AES_RANDOM_IV):
  *         self.bs = 32
  *         self.key = hashlib.sha256(key.encode()).digest()             # <<<<<<<<<<<<<<
@@ -3952,7 +3922,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher___init__(CYTHON_UNUSED
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_key, __pyx_t_1) < 0) __PYX_ERR(0, 101, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "dsencrpt/dsencrypt.py":102
+  /* "dsencrypt/dsencrypt.py":102
  *         self.bs = 32
  *         self.key = hashlib.sha256(key.encode()).digest()
  *         self.iv = iv             # <<<<<<<<<<<<<<
@@ -3961,7 +3931,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher___init__(CYTHON_UNUSED
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_iv, __pyx_v_iv) < 0) __PYX_ERR(0, 102, __pyx_L1_error)
 
-  /* "dsencrpt/dsencrypt.py":103
+  /* "dsencrypt/dsencrypt.py":103
  *         self.key = hashlib.sha256(key.encode()).digest()
  *         self.iv = iv
  *         self.cipher = AES.new(self.key, AES.MODE_CBC, self.iv)             # <<<<<<<<<<<<<<
@@ -4039,7 +4009,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher___init__(CYTHON_UNUSED
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_cipher, __pyx_t_1) < 0) __PYX_ERR(0, 103, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "dsencrpt/dsencrypt.py":99
+  /* "dsencrypt/dsencrypt.py":99
  * class AESCipher(object):
  * 
  *     def __init__(self, key=AES_RANDOM_KEY, iv=AES_RANDOM_IV):             # <<<<<<<<<<<<<<
@@ -4058,7 +4028,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher___init__(CYTHON_UNUSED
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_6);
   __Pyx_XDECREF(__pyx_t_8);
-  __Pyx_AddTraceback("dsencrpt.dsencrypt.AESCipher.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("dsencrypt.dsencrypt.AESCipher.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -4066,7 +4036,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher___init__(CYTHON_UNUSED
   return __pyx_r;
 }
 
-/* "dsencrpt/dsencrypt.py":112
+/* "dsencrypt/dsencrypt.py":112
  *     #     return self._unpad(self.cipher.decrypt(base64.b64decode(enc)))
  *     #
  *     def encrypt(self, raw):             # <<<<<<<<<<<<<<
@@ -4075,9 +4045,9 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher___init__(CYTHON_UNUSED
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_8dsencrpt_9dsencrypt_9AESCipher_3encrypt(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_8dsencrpt_9dsencrypt_9AESCipher_3encrypt = {"encrypt", (PyCFunction)__pyx_pw_8dsencrpt_9dsencrypt_9AESCipher_3encrypt, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_8dsencrpt_9dsencrypt_9AESCipher_3encrypt(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_9dsencrypt_9dsencrypt_9AESCipher_3encrypt(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_9dsencrypt_9dsencrypt_9AESCipher_3encrypt = {"encrypt", (PyCFunction)__pyx_pw_9dsencrypt_9dsencrypt_9AESCipher_3encrypt, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_9dsencrypt_9dsencrypt_9AESCipher_3encrypt(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_raw = 0;
   PyObject *__pyx_r = 0;
@@ -4122,18 +4092,18 @@ static PyObject *__pyx_pw_8dsencrpt_9dsencrypt_9AESCipher_3encrypt(PyObject *__p
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("encrypt", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 112, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("dsencrpt.dsencrypt.AESCipher.encrypt", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("dsencrypt.dsencrypt.AESCipher.encrypt", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_2encrypt(__pyx_self, __pyx_v_self, __pyx_v_raw);
+  __pyx_r = __pyx_pf_9dsencrypt_9dsencrypt_9AESCipher_2encrypt(__pyx_self, __pyx_v_self, __pyx_v_raw);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_2encrypt(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_raw) {
+static PyObject *__pyx_pf_9dsencrypt_9dsencrypt_9AESCipher_2encrypt(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_raw) {
   PyObject *__pyx_v_iv = NULL;
   PyObject *__pyx_v_cipher = NULL;
   PyObject *__pyx_r = NULL;
@@ -4148,7 +4118,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_2encrypt(CYTHON_UNUSED
   __Pyx_RefNannySetupContext("encrypt", 0);
   __Pyx_INCREF(__pyx_v_raw);
 
-  /* "dsencrpt/dsencrypt.py":113
+  /* "dsencrypt/dsencrypt.py":113
  *     #
  *     def encrypt(self, raw):
  *         raw = self._pad(raw)             # <<<<<<<<<<<<<<
@@ -4203,7 +4173,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_2encrypt(CYTHON_UNUSED
   __Pyx_DECREF_SET(__pyx_v_raw, __pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "dsencrpt/dsencrypt.py":114
+  /* "dsencrypt/dsencrypt.py":114
  *     def encrypt(self, raw):
  *         raw = self._pad(raw)
  *         iv = Random.new().read(AES.block_size)             # <<<<<<<<<<<<<<
@@ -4290,7 +4260,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_2encrypt(CYTHON_UNUSED
   __pyx_v_iv = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "dsencrpt/dsencrypt.py":115
+  /* "dsencrypt/dsencrypt.py":115
  *         raw = self._pad(raw)
  *         iv = Random.new().read(AES.block_size)
  *         cipher = AES.new(self.key, AES.MODE_CBC, iv)             # <<<<<<<<<<<<<<
@@ -4364,7 +4334,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_2encrypt(CYTHON_UNUSED
   __pyx_v_cipher = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "dsencrpt/dsencrypt.py":116
+  /* "dsencrypt/dsencrypt.py":116
  *         iv = Random.new().read(AES.block_size)
  *         cipher = AES.new(self.key, AES.MODE_CBC, iv)
  *         return base64.b64encode(iv + cipher.encrypt(raw))             # <<<<<<<<<<<<<<
@@ -4475,7 +4445,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_2encrypt(CYTHON_UNUSED
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "dsencrpt/dsencrypt.py":112
+  /* "dsencrypt/dsencrypt.py":112
  *     #     return self._unpad(self.cipher.decrypt(base64.b64decode(enc)))
  *     #
  *     def encrypt(self, raw):             # <<<<<<<<<<<<<<
@@ -4491,7 +4461,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_2encrypt(CYTHON_UNUSED
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_7);
-  __Pyx_AddTraceback("dsencrpt.dsencrypt.AESCipher.encrypt", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("dsencrypt.dsencrypt.AESCipher.encrypt", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_iv);
@@ -4502,7 +4472,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_2encrypt(CYTHON_UNUSED
   return __pyx_r;
 }
 
-/* "dsencrpt/dsencrypt.py":118
+/* "dsencrypt/dsencrypt.py":118
  *         return base64.b64encode(iv + cipher.encrypt(raw))
  * 
  *     def decrypt(self, enc):             # <<<<<<<<<<<<<<
@@ -4511,9 +4481,9 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_2encrypt(CYTHON_UNUSED
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_8dsencrpt_9dsencrypt_9AESCipher_5decrypt(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_8dsencrpt_9dsencrypt_9AESCipher_5decrypt = {"decrypt", (PyCFunction)__pyx_pw_8dsencrpt_9dsencrypt_9AESCipher_5decrypt, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_8dsencrpt_9dsencrypt_9AESCipher_5decrypt(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_9dsencrypt_9dsencrypt_9AESCipher_5decrypt(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_9dsencrypt_9dsencrypt_9AESCipher_5decrypt = {"decrypt", (PyCFunction)__pyx_pw_9dsencrypt_9dsencrypt_9AESCipher_5decrypt, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_9dsencrypt_9dsencrypt_9AESCipher_5decrypt(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_enc = 0;
   PyObject *__pyx_r = 0;
@@ -4558,18 +4528,18 @@ static PyObject *__pyx_pw_8dsencrpt_9dsencrypt_9AESCipher_5decrypt(PyObject *__p
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("decrypt", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 118, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("dsencrpt.dsencrypt.AESCipher.decrypt", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("dsencrypt.dsencrypt.AESCipher.decrypt", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_4decrypt(__pyx_self, __pyx_v_self, __pyx_v_enc);
+  __pyx_r = __pyx_pf_9dsencrypt_9dsencrypt_9AESCipher_4decrypt(__pyx_self, __pyx_v_self, __pyx_v_enc);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_4decrypt(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_enc) {
+static PyObject *__pyx_pf_9dsencrypt_9dsencrypt_9AESCipher_4decrypt(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_enc) {
   PyObject *__pyx_v_iv = NULL;
   PyObject *__pyx_v_cipher = NULL;
   PyObject *__pyx_r = NULL;
@@ -4585,7 +4555,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_4decrypt(CYTHON_UNUSED
   __Pyx_RefNannySetupContext("decrypt", 0);
   __Pyx_INCREF(__pyx_v_enc);
 
-  /* "dsencrpt/dsencrypt.py":119
+  /* "dsencrypt/dsencrypt.py":119
  * 
  *     def decrypt(self, enc):
  *         enc = base64.b64decode(enc)             # <<<<<<<<<<<<<<
@@ -4643,7 +4613,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_4decrypt(CYTHON_UNUSED
   __Pyx_DECREF_SET(__pyx_v_enc, __pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "dsencrpt/dsencrypt.py":120
+  /* "dsencrypt/dsencrypt.py":120
  *     def decrypt(self, enc):
  *         enc = base64.b64decode(enc)
  *         iv = enc[:AES.block_size]             # <<<<<<<<<<<<<<
@@ -4661,7 +4631,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_4decrypt(CYTHON_UNUSED
   __pyx_v_iv = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "dsencrpt/dsencrypt.py":121
+  /* "dsencrypt/dsencrypt.py":121
  *         enc = base64.b64decode(enc)
  *         iv = enc[:AES.block_size]
  *         cipher = AES.new(self.key, AES.MODE_CBC, iv)             # <<<<<<<<<<<<<<
@@ -4735,7 +4705,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_4decrypt(CYTHON_UNUSED
   __pyx_v_cipher = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "dsencrpt/dsencrypt.py":122
+  /* "dsencrypt/dsencrypt.py":122
  *         iv = enc[:AES.block_size]
  *         cipher = AES.new(self.key, AES.MODE_CBC, iv)
  *         return self._unpad(cipher.decrypt(enc[AES.block_size:]))             # <<<<<<<<<<<<<<
@@ -4851,7 +4821,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_4decrypt(CYTHON_UNUSED
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "dsencrpt/dsencrypt.py":118
+  /* "dsencrypt/dsencrypt.py":118
  *         return base64.b64encode(iv + cipher.encrypt(raw))
  * 
  *     def decrypt(self, enc):             # <<<<<<<<<<<<<<
@@ -4868,7 +4838,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_4decrypt(CYTHON_UNUSED
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_7);
   __Pyx_XDECREF(__pyx_t_8);
-  __Pyx_AddTraceback("dsencrpt.dsencrypt.AESCipher.decrypt", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("dsencrypt.dsencrypt.AESCipher.decrypt", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_iv);
@@ -4879,7 +4849,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_4decrypt(CYTHON_UNUSED
   return __pyx_r;
 }
 
-/* "dsencrpt/dsencrypt.py":124
+/* "dsencrypt/dsencrypt.py":124
  *         return self._unpad(cipher.decrypt(enc[AES.block_size:]))
  * 
  *     def _pad(self, s):             # <<<<<<<<<<<<<<
@@ -4888,16 +4858,16 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_4decrypt(CYTHON_UNUSED
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_8dsencrpt_9dsencrypt_9AESCipher_7_pad(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_8dsencrpt_9dsencrypt_9AESCipher_7_pad = {"_pad", (PyCFunction)__pyx_pw_8dsencrpt_9dsencrypt_9AESCipher_7_pad, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_8dsencrpt_9dsencrypt_9AESCipher_7_pad(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_9dsencrypt_9dsencrypt_9AESCipher_7_pad(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_9dsencrypt_9dsencrypt_9AESCipher_7_pad = {"_pad", (PyCFunction)__pyx_pw_9dsencrypt_9dsencrypt_9AESCipher_7_pad, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_9dsencrypt_9dsencrypt_9AESCipher_7_pad(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_s = 0;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("_pad (wrapper)", 0);
   {
-    static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_self,&__pyx_n_s_s_2,0};
+    static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_self,&__pyx_n_s_s,0};
     PyObject* values[2] = {0,0};
     if (unlikely(__pyx_kwds)) {
       Py_ssize_t kw_args;
@@ -4914,7 +4884,7 @@ static PyObject *__pyx_pw_8dsencrpt_9dsencrypt_9AESCipher_7_pad(PyObject *__pyx_
         if (likely((values[0] = PyDict_GetItem(__pyx_kwds, __pyx_n_s_self)) != 0)) kw_args--;
         else goto __pyx_L5_argtuple_error;
         case  1:
-        if (likely((values[1] = PyDict_GetItem(__pyx_kwds, __pyx_n_s_s_2)) != 0)) kw_args--;
+        if (likely((values[1] = PyDict_GetItem(__pyx_kwds, __pyx_n_s_s)) != 0)) kw_args--;
         else {
           __Pyx_RaiseArgtupleInvalid("_pad", 1, 2, 2, 1); __PYX_ERR(0, 124, __pyx_L3_error)
         }
@@ -4935,18 +4905,18 @@ static PyObject *__pyx_pw_8dsencrpt_9dsencrypt_9AESCipher_7_pad(PyObject *__pyx_
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("_pad", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 124, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("dsencrpt.dsencrypt.AESCipher._pad", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("dsencrypt.dsencrypt.AESCipher._pad", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_6_pad(__pyx_self, __pyx_v_self, __pyx_v_s);
+  __pyx_r = __pyx_pf_9dsencrypt_9dsencrypt_9AESCipher_6_pad(__pyx_self, __pyx_v_self, __pyx_v_s);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_6_pad(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_s) {
+static PyObject *__pyx_pf_9dsencrypt_9dsencrypt_9AESCipher_6_pad(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_s) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -4957,7 +4927,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_6_pad(CYTHON_UNUSED Py
   PyObject *__pyx_t_6 = NULL;
   __Pyx_RefNannySetupContext("_pad", 0);
 
-  /* "dsencrpt/dsencrypt.py":125
+  /* "dsencrypt/dsencrypt.py":125
  * 
  *     def _pad(self, s):
  *         return s + (self.bs - len(s) % self.bs) * chr(self.bs - len(s) % self.bs)             # <<<<<<<<<<<<<<
@@ -5014,7 +4984,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_6_pad(CYTHON_UNUSED Py
   __pyx_t_3 = 0;
   goto __pyx_L0;
 
-  /* "dsencrpt/dsencrypt.py":124
+  /* "dsencrypt/dsencrypt.py":124
  *         return self._unpad(cipher.decrypt(enc[AES.block_size:]))
  * 
  *     def _pad(self, s):             # <<<<<<<<<<<<<<
@@ -5029,7 +4999,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_6_pad(CYTHON_UNUSED Py
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_6);
-  __Pyx_AddTraceback("dsencrpt.dsencrypt.AESCipher._pad", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("dsencrypt.dsencrypt.AESCipher._pad", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -5037,7 +5007,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_6_pad(CYTHON_UNUSED Py
   return __pyx_r;
 }
 
-/* "dsencrpt/dsencrypt.py":128
+/* "dsencrypt/dsencrypt.py":128
  * 
  *     @staticmethod
  *     def is_encrypt_py(f):             # <<<<<<<<<<<<<<
@@ -5046,20 +5016,20 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_6_pad(CYTHON_UNUSED Py
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_8dsencrpt_9dsencrypt_9AESCipher_9is_encrypt_py(PyObject *__pyx_self, PyObject *__pyx_v_f); /*proto*/
-static PyMethodDef __pyx_mdef_8dsencrpt_9dsencrypt_9AESCipher_9is_encrypt_py = {"is_encrypt_py", (PyCFunction)__pyx_pw_8dsencrpt_9dsencrypt_9AESCipher_9is_encrypt_py, METH_O, 0};
-static PyObject *__pyx_pw_8dsencrpt_9dsencrypt_9AESCipher_9is_encrypt_py(PyObject *__pyx_self, PyObject *__pyx_v_f) {
+static PyObject *__pyx_pw_9dsencrypt_9dsencrypt_9AESCipher_9is_encrypt_py(PyObject *__pyx_self, PyObject *__pyx_v_f); /*proto*/
+static PyMethodDef __pyx_mdef_9dsencrypt_9dsencrypt_9AESCipher_9is_encrypt_py = {"is_encrypt_py", (PyCFunction)__pyx_pw_9dsencrypt_9dsencrypt_9AESCipher_9is_encrypt_py, METH_O, 0};
+static PyObject *__pyx_pw_9dsencrypt_9dsencrypt_9AESCipher_9is_encrypt_py(PyObject *__pyx_self, PyObject *__pyx_v_f) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("is_encrypt_py (wrapper)", 0);
-  __pyx_r = __pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_8is_encrypt_py(__pyx_self, ((PyObject *)__pyx_v_f));
+  __pyx_r = __pyx_pf_9dsencrypt_9dsencrypt_9AESCipher_8is_encrypt_py(__pyx_self, ((PyObject *)__pyx_v_f));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_8is_encrypt_py(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_f) {
+static PyObject *__pyx_pf_9dsencrypt_9dsencrypt_9AESCipher_8is_encrypt_py(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_f) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   int __pyx_t_1;
@@ -5072,7 +5042,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_8is_encrypt_py(CYTHON_
   __Pyx_RefNannySetupContext("is_encrypt_py", 0);
   __Pyx_INCREF(__pyx_v_f);
 
-  /* "dsencrpt/dsencrypt.py":129
+  /* "dsencrypt/dsencrypt.py":129
  *     @staticmethod
  *     def is_encrypt_py(f):
  *         if isinstance(f, file):             # <<<<<<<<<<<<<<
@@ -5083,7 +5053,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_8is_encrypt_py(CYTHON_
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "dsencrpt/dsencrypt.py":130
+    /* "dsencrypt/dsencrypt.py":130
  *     def is_encrypt_py(f):
  *         if isinstance(f, file):
  *             f = f.read(20)             # <<<<<<<<<<<<<<
@@ -5098,7 +5068,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_8is_encrypt_py(CYTHON_
     __Pyx_DECREF_SET(__pyx_v_f, __pyx_t_4);
     __pyx_t_4 = 0;
 
-    /* "dsencrpt/dsencrypt.py":129
+    /* "dsencrypt/dsencrypt.py":129
  *     @staticmethod
  *     def is_encrypt_py(f):
  *         if isinstance(f, file):             # <<<<<<<<<<<<<<
@@ -5107,7 +5077,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_8is_encrypt_py(CYTHON_
  */
   }
 
-  /* "dsencrpt/dsencrypt.py":131
+  /* "dsencrypt/dsencrypt.py":131
  *         if isinstance(f, file):
  *             f = f.read(20)
  *         if f.startswith(ENCRYPT_START_STR):             # <<<<<<<<<<<<<<
@@ -5168,7 +5138,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_8is_encrypt_py(CYTHON_
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   if (__pyx_t_2) {
 
-    /* "dsencrpt/dsencrypt.py":132
+    /* "dsencrypt/dsencrypt.py":132
  *             f = f.read(20)
  *         if f.startswith(ENCRYPT_START_STR):
  *             return True             # <<<<<<<<<<<<<<
@@ -5180,7 +5150,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_8is_encrypt_py(CYTHON_
     __pyx_r = Py_True;
     goto __pyx_L0;
 
-    /* "dsencrpt/dsencrypt.py":131
+    /* "dsencrypt/dsencrypt.py":131
  *         if isinstance(f, file):
  *             f = f.read(20)
  *         if f.startswith(ENCRYPT_START_STR):             # <<<<<<<<<<<<<<
@@ -5189,7 +5159,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_8is_encrypt_py(CYTHON_
  */
   }
 
-  /* "dsencrpt/dsencrypt.py":128
+  /* "dsencrypt/dsencrypt.py":128
  * 
  *     @staticmethod
  *     def is_encrypt_py(f):             # <<<<<<<<<<<<<<
@@ -5206,7 +5176,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_8is_encrypt_py(CYTHON_
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_6);
   __Pyx_XDECREF(__pyx_t_7);
-  __Pyx_AddTraceback("dsencrpt.dsencrypt.AESCipher.is_encrypt_py", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("dsencrypt.dsencrypt.AESCipher.is_encrypt_py", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_f);
@@ -5215,7 +5185,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_8is_encrypt_py(CYTHON_
   return __pyx_r;
 }
 
-/* "dsencrpt/dsencrypt.py":135
+/* "dsencrypt/dsencrypt.py":135
  * 
  *     @staticmethod
  *     def _unpad(s):             # <<<<<<<<<<<<<<
@@ -5224,20 +5194,20 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_8is_encrypt_py(CYTHON_
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_8dsencrpt_9dsencrypt_9AESCipher_11_unpad(PyObject *__pyx_self, PyObject *__pyx_v_s); /*proto*/
-static PyMethodDef __pyx_mdef_8dsencrpt_9dsencrypt_9AESCipher_11_unpad = {"_unpad", (PyCFunction)__pyx_pw_8dsencrpt_9dsencrypt_9AESCipher_11_unpad, METH_O, 0};
-static PyObject *__pyx_pw_8dsencrpt_9dsencrypt_9AESCipher_11_unpad(PyObject *__pyx_self, PyObject *__pyx_v_s) {
+static PyObject *__pyx_pw_9dsencrypt_9dsencrypt_9AESCipher_11_unpad(PyObject *__pyx_self, PyObject *__pyx_v_s); /*proto*/
+static PyMethodDef __pyx_mdef_9dsencrypt_9dsencrypt_9AESCipher_11_unpad = {"_unpad", (PyCFunction)__pyx_pw_9dsencrypt_9dsencrypt_9AESCipher_11_unpad, METH_O, 0};
+static PyObject *__pyx_pw_9dsencrypt_9dsencrypt_9AESCipher_11_unpad(PyObject *__pyx_self, PyObject *__pyx_v_s) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("_unpad (wrapper)", 0);
-  __pyx_r = __pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_10_unpad(__pyx_self, ((PyObject *)__pyx_v_s));
+  __pyx_r = __pyx_pf_9dsencrypt_9dsencrypt_9AESCipher_10_unpad(__pyx_self, ((PyObject *)__pyx_v_s));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_10_unpad(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_s) {
+static PyObject *__pyx_pf_9dsencrypt_9dsencrypt_9AESCipher_10_unpad(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_s) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   Py_ssize_t __pyx_t_1;
@@ -5245,7 +5215,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_10_unpad(CYTHON_UNUSED
   long __pyx_t_3;
   __Pyx_RefNannySetupContext("_unpad", 0);
 
-  /* "dsencrpt/dsencrypt.py":136
+  /* "dsencrypt/dsencrypt.py":136
  *     @staticmethod
  *     def _unpad(s):
  *         return s[:-ord(s[len(s)-1:])]             # <<<<<<<<<<<<<<
@@ -5264,7 +5234,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_10_unpad(CYTHON_UNUSED
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "dsencrpt/dsencrypt.py":135
+  /* "dsencrypt/dsencrypt.py":135
  * 
  *     @staticmethod
  *     def _unpad(s):             # <<<<<<<<<<<<<<
@@ -5275,7 +5245,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_10_unpad(CYTHON_UNUSED
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_AddTraceback("dsencrpt.dsencrypt.AESCipher._unpad", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("dsencrypt.dsencrypt.AESCipher._unpad", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -5283,7 +5253,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_10_unpad(CYTHON_UNUSED
   return __pyx_r;
 }
 
-/* "dsencrpt/dsencrypt.py":141
+/* "dsencrypt/dsencrypt.py":141
  * 
  * 
  * def encrypt_file(file_):             # <<<<<<<<<<<<<<
@@ -5292,20 +5262,20 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_9AESCipher_10_unpad(CYTHON_UNUSED
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_8dsencrpt_9dsencrypt_1encrypt_file(PyObject *__pyx_self, PyObject *__pyx_v_file_); /*proto*/
-static PyMethodDef __pyx_mdef_8dsencrpt_9dsencrypt_1encrypt_file = {"encrypt_file", (PyCFunction)__pyx_pw_8dsencrpt_9dsencrypt_1encrypt_file, METH_O, 0};
-static PyObject *__pyx_pw_8dsencrpt_9dsencrypt_1encrypt_file(PyObject *__pyx_self, PyObject *__pyx_v_file_) {
+static PyObject *__pyx_pw_9dsencrypt_9dsencrypt_1encrypt_file(PyObject *__pyx_self, PyObject *__pyx_v_file_); /*proto*/
+static PyMethodDef __pyx_mdef_9dsencrypt_9dsencrypt_1encrypt_file = {"encrypt_file", (PyCFunction)__pyx_pw_9dsencrypt_9dsencrypt_1encrypt_file, METH_O, 0};
+static PyObject *__pyx_pw_9dsencrypt_9dsencrypt_1encrypt_file(PyObject *__pyx_self, PyObject *__pyx_v_file_) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("encrypt_file (wrapper)", 0);
-  __pyx_r = __pyx_pf_8dsencrpt_9dsencrypt_encrypt_file(__pyx_self, ((PyObject *)__pyx_v_file_));
+  __pyx_r = __pyx_pf_9dsencrypt_9dsencrypt_encrypt_file(__pyx_self, ((PyObject *)__pyx_v_file_));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_encrypt_file(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_file_) {
+static PyObject *__pyx_pf_9dsencrypt_9dsencrypt_encrypt_file(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_file_) {
   PyObject *__pyx_v_mod = NULL;
   PyObject *__pyx_v_f = NULL;
   PyObject *__pyx_v_s = NULL;
@@ -5326,7 +5296,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_encrypt_file(CYTHON_UNUSED PyObje
   PyObject *__pyx_t_12 = NULL;
   __Pyx_RefNannySetupContext("encrypt_file", 0);
 
-  /* "dsencrpt/dsencrypt.py":142
+  /* "dsencrypt/dsencrypt.py":142
  * 
  * def encrypt_file(file_):
  *     if file_.endswith('pyc'):             # <<<<<<<<<<<<<<
@@ -5342,7 +5312,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_encrypt_file(CYTHON_UNUSED PyObje
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (__pyx_t_3) {
 
-    /* "dsencrpt/dsencrypt.py":143
+    /* "dsencrypt/dsencrypt.py":143
  * def encrypt_file(file_):
  *     if file_.endswith('pyc'):
  *         mod = 'rb+'             # <<<<<<<<<<<<<<
@@ -5352,7 +5322,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_encrypt_file(CYTHON_UNUSED PyObje
     __Pyx_INCREF(__pyx_kp_s_rb);
     __pyx_v_mod = __pyx_kp_s_rb;
 
-    /* "dsencrpt/dsencrypt.py":142
+    /* "dsencrypt/dsencrypt.py":142
  * 
  * def encrypt_file(file_):
  *     if file_.endswith('pyc'):             # <<<<<<<<<<<<<<
@@ -5362,7 +5332,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_encrypt_file(CYTHON_UNUSED PyObje
     goto __pyx_L3;
   }
 
-  /* "dsencrpt/dsencrypt.py":145
+  /* "dsencrypt/dsencrypt.py":145
  *         mod = 'rb+'
  *     else:
  *         mod = 'r+'             # <<<<<<<<<<<<<<
@@ -5375,7 +5345,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_encrypt_file(CYTHON_UNUSED PyObje
   }
   __pyx_L3:;
 
-  /* "dsencrpt/dsencrypt.py":146
+  /* "dsencrypt/dsencrypt.py":146
  *     else:
  *         mod = 'r+'
  *     with open(file_, mod) as f:             # <<<<<<<<<<<<<<
@@ -5431,7 +5401,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_encrypt_file(CYTHON_UNUSED PyObje
           __pyx_v_f = __pyx_t_5;
           __pyx_t_5 = 0;
 
-          /* "dsencrpt/dsencrypt.py":147
+          /* "dsencrypt/dsencrypt.py":147
  *         mod = 'r+'
  *     with open(file_, mod) as f:
  *         s = f.read()             # <<<<<<<<<<<<<<
@@ -5461,7 +5431,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_encrypt_file(CYTHON_UNUSED PyObje
           __pyx_v_s = __pyx_t_5;
           __pyx_t_5 = 0;
 
-          /* "dsencrpt/dsencrypt.py":148
+          /* "dsencrypt/dsencrypt.py":148
  *     with open(file_, mod) as f:
  *         s = f.read()
  *         if aes_cipher.is_encrypt_py(s):             # <<<<<<<<<<<<<<
@@ -5520,7 +5490,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_encrypt_file(CYTHON_UNUSED PyObje
           __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
           if (__pyx_t_3) {
 
-            /* "dsencrpt/dsencrypt.py":149
+            /* "dsencrypt/dsencrypt.py":149
  *         s = f.read()
  *         if aes_cipher.is_encrypt_py(s):
  *             return             # <<<<<<<<<<<<<<
@@ -5531,7 +5501,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_encrypt_file(CYTHON_UNUSED PyObje
             __pyx_r = Py_None; __Pyx_INCREF(Py_None);
             goto __pyx_L12_try_return;
 
-            /* "dsencrpt/dsencrypt.py":148
+            /* "dsencrypt/dsencrypt.py":148
  *     with open(file_, mod) as f:
  *         s = f.read()
  *         if aes_cipher.is_encrypt_py(s):             # <<<<<<<<<<<<<<
@@ -5540,7 +5510,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_encrypt_file(CYTHON_UNUSED PyObje
  */
           }
 
-          /* "dsencrpt/dsencrypt.py":146
+          /* "dsencrypt/dsencrypt.py":146
  *     else:
  *         mod = 'r+'
  *     with open(file_, mod) as f:             # <<<<<<<<<<<<<<
@@ -5559,7 +5529,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_encrypt_file(CYTHON_UNUSED PyObje
         __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
         __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
         /*except:*/ {
-          __Pyx_AddTraceback("dsencrpt.dsencrypt.encrypt_file", __pyx_clineno, __pyx_lineno, __pyx_filename);
+          __Pyx_AddTraceback("dsencrypt.dsencrypt.encrypt_file", __pyx_clineno, __pyx_lineno, __pyx_filename);
           if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_2, &__pyx_t_6) < 0) __PYX_ERR(0, 146, __pyx_L10_except_error)
           __Pyx_GOTREF(__pyx_t_5);
           __Pyx_GOTREF(__pyx_t_2);
@@ -5645,7 +5615,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_encrypt_file(CYTHON_UNUSED PyObje
     __pyx_L20:;
   }
 
-  /* "dsencrpt/dsencrypt.py":150
+  /* "dsencrypt/dsencrypt.py":150
  *         if aes_cipher.is_encrypt_py(s):
  *             return
  *     with open(file_, 'w') as f:             # <<<<<<<<<<<<<<
@@ -5701,7 +5671,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_encrypt_file(CYTHON_UNUSED PyObje
           __Pyx_XDECREF_SET(__pyx_v_f, __pyx_t_5);
           __pyx_t_5 = 0;
 
-          /* "dsencrpt/dsencrypt.py":151
+          /* "dsencrypt/dsencrypt.py":151
  *             return
  *     with open(file_, 'w') as f:
  *         es = aes_cipher.encrypt(s)             # <<<<<<<<<<<<<<
@@ -5760,12 +5730,12 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_encrypt_file(CYTHON_UNUSED PyObje
           __pyx_v_es = __pyx_t_5;
           __pyx_t_5 = 0;
 
-          /* "dsencrpt/dsencrypt.py":152
+          /* "dsencrypt/dsencrypt.py":152
  *     with open(file_, 'w') as f:
  *         es = aes_cipher.encrypt(s)
  *         f.write(ENCRYPT_START_STR)             # <<<<<<<<<<<<<<
  *         f.write(es)
- *         print 'done encrypt'
+ * 
  */
           __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_f, __pyx_n_s_write); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 152, __pyx_L25_error)
           __Pyx_GOTREF(__pyx_t_6);
@@ -5819,12 +5789,12 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_encrypt_file(CYTHON_UNUSED PyObje
           __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
           __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-          /* "dsencrpt/dsencrypt.py":153
+          /* "dsencrypt/dsencrypt.py":153
  *         es = aes_cipher.encrypt(s)
  *         f.write(ENCRYPT_START_STR)
  *         f.write(es)             # <<<<<<<<<<<<<<
- *         print 'done encrypt'
  * 
+ * if __name__ == '__main__':
  */
           __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_f, __pyx_n_s_write); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 153, __pyx_L25_error)
           __Pyx_GOTREF(__pyx_t_6);
@@ -5873,16 +5843,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_encrypt_file(CYTHON_UNUSED PyObje
           __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
           __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-          /* "dsencrpt/dsencrypt.py":154
- *         f.write(ENCRYPT_START_STR)
- *         f.write(es)
- *         print 'done encrypt'             # <<<<<<<<<<<<<<
- * 
- * if __name__ == '__main__':
- */
-          if (__Pyx_PrintOne(0, __pyx_kp_s_done_encrypt) < 0) __PYX_ERR(0, 154, __pyx_L25_error)
-
-          /* "dsencrpt/dsencrypt.py":150
+          /* "dsencrypt/dsencrypt.py":150
  *         if aes_cipher.is_encrypt_py(s):
  *             return
  *     with open(file_, 'w') as f:             # <<<<<<<<<<<<<<
@@ -5902,7 +5863,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_encrypt_file(CYTHON_UNUSED PyObje
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
         __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
         /*except:*/ {
-          __Pyx_AddTraceback("dsencrpt.dsencrypt.encrypt_file", __pyx_clineno, __pyx_lineno, __pyx_filename);
+          __Pyx_AddTraceback("dsencrypt.dsencrypt.encrypt_file", __pyx_clineno, __pyx_lineno, __pyx_filename);
           if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_1) < 0) __PYX_ERR(0, 150, __pyx_L27_except_error)
           __Pyx_GOTREF(__pyx_t_5);
           __Pyx_GOTREF(__pyx_t_6);
@@ -5967,7 +5928,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_encrypt_file(CYTHON_UNUSED PyObje
     __pyx_L36:;
   }
 
-  /* "dsencrpt/dsencrypt.py":141
+  /* "dsencrypt/dsencrypt.py":141
  * 
  * 
  * def encrypt_file(file_):             # <<<<<<<<<<<<<<
@@ -5984,7 +5945,7 @@ static PyObject *__pyx_pf_8dsencrpt_9dsencrypt_encrypt_file(CYTHON_UNUSED PyObje
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_6);
   __Pyx_XDECREF(__pyx_t_12);
-  __Pyx_AddTraceback("dsencrpt.dsencrypt.encrypt_file", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("dsencrypt.dsencrypt.encrypt_file", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_mod);
@@ -6069,14 +6030,12 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_dict, __pyx_k_dict, sizeof(__pyx_k_dict), 0, 0, 1, 1},
   {&__pyx_n_s_digest, __pyx_k_digest, sizeof(__pyx_k_digest), 0, 0, 1, 1},
   {&__pyx_n_s_doc, __pyx_k_doc, sizeof(__pyx_k_doc), 0, 0, 1, 1},
-  {&__pyx_kp_s_done_encrypt, __pyx_k_done_encrypt, sizeof(__pyx_k_done_encrypt), 0, 0, 1, 0},
-  {&__pyx_n_s_dsencrpt_dsencrypt, __pyx_k_dsencrpt_dsencrypt, sizeof(__pyx_k_dsencrpt_dsencrypt), 0, 0, 1, 1},
+  {&__pyx_n_s_dsencrypt_dsencrypt, __pyx_k_dsencrypt_dsencrypt, sizeof(__pyx_k_dsencrypt_dsencrypt), 0, 0, 1, 1},
   {&__pyx_n_s_e, __pyx_k_e, sizeof(__pyx_k_e), 0, 0, 1, 1},
   {&__pyx_n_s_enc, __pyx_k_enc, sizeof(__pyx_k_enc), 0, 0, 1, 1},
   {&__pyx_n_s_encode, __pyx_k_encode, sizeof(__pyx_k_encode), 0, 0, 1, 1},
   {&__pyx_n_s_encrypt, __pyx_k_encrypt, sizeof(__pyx_k_encrypt), 0, 0, 1, 1},
   {&__pyx_n_s_encrypt_file, __pyx_k_encrypt_file, sizeof(__pyx_k_encrypt_file), 0, 0, 1, 1},
-  {&__pyx_n_s_end, __pyx_k_end, sizeof(__pyx_k_end), 0, 0, 1, 1},
   {&__pyx_n_s_endswith, __pyx_k_endswith, sizeof(__pyx_k_endswith), 0, 0, 1, 1},
   {&__pyx_n_s_enter, __pyx_k_enter, sizeof(__pyx_k_enter), 0, 0, 1, 1},
   {&__pyx_n_s_es, __pyx_k_es, sizeof(__pyx_k_es), 0, 0, 1, 1},
@@ -6115,7 +6074,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_new_module, __pyx_k_new_module, sizeof(__pyx_k_new_module), 0, 0, 1, 1},
   {&__pyx_n_s_object, __pyx_k_object, sizeof(__pyx_k_object), 0, 0, 1, 1},
   {&__pyx_n_s_open, __pyx_k_open, sizeof(__pyx_k_open), 0, 0, 1, 1},
-  {&__pyx_kp_s_opt_dsencrpt_dsencrypt_py, __pyx_k_opt_dsencrpt_dsencrypt_py, sizeof(__pyx_k_opt_dsencrpt_dsencrypt_py), 0, 0, 1, 0},
+  {&__pyx_kp_s_opt_dsencrypt_dsencrypt_py, __pyx_k_opt_dsencrypt_dsencrypt_py, sizeof(__pyx_k_opt_dsencrypt_dsencrypt_py), 0, 0, 1, 0},
   {&__pyx_n_s_os, __pyx_k_os, sizeof(__pyx_k_os), 0, 0, 1, 1},
   {&__pyx_n_s_package, __pyx_k_package, sizeof(__pyx_k_package), 0, 0, 1, 1},
   {&__pyx_n_s_pad, __pyx_k_pad, sizeof(__pyx_k_pad), 0, 0, 1, 1},
@@ -6123,7 +6082,6 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_path_2, __pyx_k_path_2, sizeof(__pyx_k_path_2), 0, 0, 1, 1},
   {&__pyx_n_s_pathname, __pyx_k_pathname, sizeof(__pyx_k_pathname), 0, 0, 1, 1},
   {&__pyx_n_s_prepare, __pyx_k_prepare, sizeof(__pyx_k_prepare), 0, 0, 1, 1},
-  {&__pyx_n_s_print, __pyx_k_print, sizeof(__pyx_k_print), 0, 0, 1, 1},
   {&__pyx_n_s_print_exc, __pyx_k_print_exc, sizeof(__pyx_k_print_exc), 0, 0, 1, 1},
   {&__pyx_kp_s_py, __pyx_k_py, sizeof(__pyx_k_py), 0, 0, 1, 0},
   {&__pyx_n_s_py_compile, __pyx_k_py_compile, sizeof(__pyx_k_py_compile), 0, 0, 1, 1},
@@ -6137,8 +6095,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_register_module, __pyx_k_register_module, sizeof(__pyx_k_register_module), 0, 0, 1, 1},
   {&__pyx_n_s_replace, __pyx_k_replace, sizeof(__pyx_k_replace), 0, 0, 1, 1},
   {&__pyx_n_s_rpartition, __pyx_k_rpartition, sizeof(__pyx_k_rpartition), 0, 0, 1, 1},
-  {&__pyx_kp_s_s, __pyx_k_s, sizeof(__pyx_k_s), 0, 0, 1, 0},
-  {&__pyx_n_s_s_2, __pyx_k_s_2, sizeof(__pyx_k_s_2), 0, 0, 1, 1},
+  {&__pyx_n_s_s, __pyx_k_s, sizeof(__pyx_k_s), 0, 0, 1, 1},
   {&__pyx_n_s_sdfsdfssdfjsdoiewrjsdioafjlekjw, __pyx_k_sdfsdfssdfjsdoiewrjsdioafjlekjw, sizeof(__pyx_k_sdfsdfssdfjsdoiewrjsdioafjlekjw), 0, 0, 1, 1},
   {&__pyx_n_s_self, __pyx_k_self, sizeof(__pyx_k_self), 0, 0, 1, 1},
   {&__pyx_n_s_setdefault, __pyx_k_setdefault, sizeof(__pyx_k_setdefault), 0, 0, 1, 1},
@@ -6170,7 +6127,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
-  /* "dsencrpt/dsencrypt.py":39
+  /* "dsencrypt/dsencrypt.py":39
  *                 if not path:
  *                     return None
  *                 name = name.rpartition('.')[-1]             # <<<<<<<<<<<<<<
@@ -6181,7 +6138,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__2);
   __Pyx_GIVEREF(__pyx_tuple__2);
 
-  /* "dsencrpt/dsencrypt.py":43
+  /* "dsencrypt/dsencrypt.py":43
  * 
  *             if f:
  *                 if description[0].startswith('.py') and self.aes_cipher.is_encrypt_py(f):             # <<<<<<<<<<<<<<
@@ -6192,7 +6149,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__3);
   __Pyx_GIVEREF(__pyx_tuple__3);
 
-  /* "dsencrpt/dsencrypt.py":64
+  /* "dsencrypt/dsencrypt.py":64
  *             ispkg = is_package
  *             if ispkg:
  *                 code = marshal.loads(code[8:])             # <<<<<<<<<<<<<<
@@ -6203,7 +6160,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_slice__4);
   __Pyx_GIVEREF(__pyx_slice__4);
 
-  /* "dsencrpt/dsencrypt.py":66
+  /* "dsencrypt/dsencrypt.py":66
  *                 code = marshal.loads(code[8:])
  *             else:
  *                 if pathname.endswith(('pyc', 'pyo')):             # <<<<<<<<<<<<<<
@@ -6217,7 +6174,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__6);
   __Pyx_GIVEREF(__pyx_tuple__6);
 
-  /* "dsencrpt/dsencrypt.py":67
+  /* "dsencrypt/dsencrypt.py":67
  *             else:
  *                 if pathname.endswith(('pyc', 'pyo')):
  *                     code = marshal.loads(code[8:])             # <<<<<<<<<<<<<<
@@ -6228,7 +6185,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_slice__7);
   __Pyx_GIVEREF(__pyx_slice__7);
 
-  /* "dsencrpt/dsencrypt.py":77
+  /* "dsencrypt/dsencrypt.py":77
  *                 mod.__package__ = name
  *             else:
  *                 mod.__package__ = name.rpartition('.')[0]             # <<<<<<<<<<<<<<
@@ -6239,7 +6196,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__8);
   __Pyx_GIVEREF(__pyx_tuple__8);
 
-  /* "dsencrpt/dsencrypt.py":130
+  /* "dsencrypt/dsencrypt.py":130
  *     def is_encrypt_py(f):
  *         if isinstance(f, file):
  *             f = f.read(20)             # <<<<<<<<<<<<<<
@@ -6250,7 +6207,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__10);
   __Pyx_GIVEREF(__pyx_tuple__10);
 
-  /* "dsencrpt/dsencrypt.py":142
+  /* "dsencrypt/dsencrypt.py":142
  * 
  * def encrypt_file(file_):
  *     if file_.endswith('pyc'):             # <<<<<<<<<<<<<<
@@ -6261,7 +6218,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__11);
   __Pyx_GIVEREF(__pyx_tuple__11);
 
-  /* "dsencrpt/dsencrypt.py":146
+  /* "dsencrypt/dsencrypt.py":146
  *     else:
  *         mod = 'r+'
  *     with open(file_, mod) as f:             # <<<<<<<<<<<<<<
@@ -6275,7 +6232,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__13);
   __Pyx_GIVEREF(__pyx_tuple__13);
 
-  /* "dsencrpt/dsencrypt.py":150
+  /* "dsencrypt/dsencrypt.py":150
  *         if aes_cipher.is_encrypt_py(s):
  *             return
  *     with open(file_, 'w') as f:             # <<<<<<<<<<<<<<
@@ -6286,7 +6243,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__14);
   __Pyx_GIVEREF(__pyx_tuple__14);
 
-  /* "dsencrpt/dsencrypt.py":26
+  /* "dsencrypt/dsencrypt.py":26
  *     see doc: https://docs.python.org/2/library/imp.html#imp.find_module
  *     """
  *     def __init__(self):             # <<<<<<<<<<<<<<
@@ -6296,9 +6253,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__15 = PyTuple_Pack(1, __pyx_n_s_self); if (unlikely(!__pyx_tuple__15)) __PYX_ERR(0, 26, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__15);
   __Pyx_GIVEREF(__pyx_tuple__15);
-  __pyx_codeobj__16 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__15, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_opt_dsencrpt_dsencrypt_py, __pyx_n_s_init, 26, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__16)) __PYX_ERR(0, 26, __pyx_L1_error)
+  __pyx_codeobj__16 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__15, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_opt_dsencrypt_dsencrypt_py, __pyx_n_s_init, 26, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__16)) __PYX_ERR(0, 26, __pyx_L1_error)
 
-  /* "dsencrpt/dsencrypt.py":30
+  /* "dsencrypt/dsencrypt.py":30
  *         self.aes_cipher = AESCipher()
  * 
  *     def register_module(self, name, pathname, description, is_package=False):             # <<<<<<<<<<<<<<
@@ -6308,12 +6265,12 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__17 = PyTuple_Pack(5, __pyx_n_s_self, __pyx_n_s_name, __pyx_n_s_pathname, __pyx_n_s_description, __pyx_n_s_is_package); if (unlikely(!__pyx_tuple__17)) __PYX_ERR(0, 30, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__17);
   __Pyx_GIVEREF(__pyx_tuple__17);
-  __pyx_codeobj__18 = (PyObject*)__Pyx_PyCode_New(5, 0, 5, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__17, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_opt_dsencrpt_dsencrypt_py, __pyx_n_s_register_module, 30, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__18)) __PYX_ERR(0, 30, __pyx_L1_error)
+  __pyx_codeobj__18 = (PyObject*)__Pyx_PyCode_New(5, 0, 5, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__17, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_opt_dsencrypt_dsencrypt_py, __pyx_n_s_register_module, 30, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__18)) __PYX_ERR(0, 30, __pyx_L1_error)
   __pyx_tuple__19 = PyTuple_Pack(1, ((PyObject *)Py_False)); if (unlikely(!__pyx_tuple__19)) __PYX_ERR(0, 30, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__19);
   __Pyx_GIVEREF(__pyx_tuple__19);
 
-  /* "dsencrpt/dsencrypt.py":33
+  /* "dsencrypt/dsencrypt.py":33
  *         self._modules[name] = (pathname, description, is_package)
  * 
  *     def find_module(self, name, path=None):             # <<<<<<<<<<<<<<
@@ -6323,12 +6280,12 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__20 = PyTuple_Pack(8, __pyx_n_s_self, __pyx_n_s_name, __pyx_n_s_path, __pyx_n_s_full_name, __pyx_n_s_f, __pyx_n_s_pathname, __pyx_n_s_description, __pyx_n_s_e); if (unlikely(!__pyx_tuple__20)) __PYX_ERR(0, 33, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__20);
   __Pyx_GIVEREF(__pyx_tuple__20);
-  __pyx_codeobj__21 = (PyObject*)__Pyx_PyCode_New(3, 0, 8, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__20, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_opt_dsencrpt_dsencrypt_py, __pyx_n_s_find_module, 33, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__21)) __PYX_ERR(0, 33, __pyx_L1_error)
+  __pyx_codeobj__21 = (PyObject*)__Pyx_PyCode_New(3, 0, 8, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__20, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_opt_dsencrypt_dsencrypt_py, __pyx_n_s_find_module, 33, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__21)) __PYX_ERR(0, 33, __pyx_L1_error)
   __pyx_tuple__22 = PyTuple_Pack(1, ((PyObject *)Py_None)); if (unlikely(!__pyx_tuple__22)) __PYX_ERR(0, 33, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__22);
   __Pyx_GIVEREF(__pyx_tuple__22);
 
-  /* "dsencrpt/dsencrypt.py":54
+  /* "dsencrypt/dsencrypt.py":54
  *         return None
  * 
  *     def load_module(self, name):             # <<<<<<<<<<<<<<
@@ -6338,9 +6295,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__23 = PyTuple_Pack(8, __pyx_n_s_self, __pyx_n_s_name, __pyx_n_s_pathname, __pyx_n_s_description, __pyx_n_s_is_package, __pyx_n_s_code, __pyx_n_s_ispkg, __pyx_n_s_mod); if (unlikely(!__pyx_tuple__23)) __PYX_ERR(0, 54, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__23);
   __Pyx_GIVEREF(__pyx_tuple__23);
-  __pyx_codeobj__24 = (PyObject*)__Pyx_PyCode_New(2, 0, 8, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__23, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_opt_dsencrpt_dsencrypt_py, __pyx_n_s_load_module, 54, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__24)) __PYX_ERR(0, 54, __pyx_L1_error)
+  __pyx_codeobj__24 = (PyObject*)__Pyx_PyCode_New(2, 0, 8, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__23, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_opt_dsencrypt_dsencrypt_py, __pyx_n_s_load_module, 54, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__24)) __PYX_ERR(0, 54, __pyx_L1_error)
 
-  /* "dsencrpt/dsencrypt.py":85
+  /* "dsencrypt/dsencrypt.py":85
  *             raise ImportError
  * 
  *     def get_code(self, pathname):             # <<<<<<<<<<<<<<
@@ -6350,9 +6307,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__25 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_pathname, __pyx_n_s_f); if (unlikely(!__pyx_tuple__25)) __PYX_ERR(0, 85, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__25);
   __Pyx_GIVEREF(__pyx_tuple__25);
-  __pyx_codeobj__26 = (PyObject*)__Pyx_PyCode_New(2, 0, 3, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__25, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_opt_dsencrpt_dsencrypt_py, __pyx_n_s_get_code, 85, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__26)) __PYX_ERR(0, 85, __pyx_L1_error)
+  __pyx_codeobj__26 = (PyObject*)__Pyx_PyCode_New(2, 0, 3, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__25, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_opt_dsencrypt_dsencrypt_py, __pyx_n_s_get_code, 85, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__26)) __PYX_ERR(0, 85, __pyx_L1_error)
 
-  /* "dsencrpt/dsencrypt.py":89
+  /* "dsencrypt/dsencrypt.py":89
  *         return self.decrypt_py(f.read())
  * 
  *     def decrypt_py(self, code_str):             # <<<<<<<<<<<<<<
@@ -6362,9 +6319,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__27 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_code_str); if (unlikely(!__pyx_tuple__27)) __PYX_ERR(0, 89, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__27);
   __Pyx_GIVEREF(__pyx_tuple__27);
-  __pyx_codeobj__28 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__27, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_opt_dsencrpt_dsencrypt_py, __pyx_n_s_decrypt_py, 89, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__28)) __PYX_ERR(0, 89, __pyx_L1_error)
+  __pyx_codeobj__28 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__27, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_opt_dsencrypt_dsencrypt_py, __pyx_n_s_decrypt_py, 89, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__28)) __PYX_ERR(0, 89, __pyx_L1_error)
 
-  /* "dsencrpt/dsencrypt.py":92
+  /* "dsencrypt/dsencrypt.py":92
  *         return self.aes_cipher.decrypt(code_str.replace(ENCRYPT_START_STR, '', 1))
  * 
  *     def is_package(self, name):             # <<<<<<<<<<<<<<
@@ -6374,9 +6331,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__29 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_name); if (unlikely(!__pyx_tuple__29)) __PYX_ERR(0, 92, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__29);
   __Pyx_GIVEREF(__pyx_tuple__29);
-  __pyx_codeobj__30 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__29, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_opt_dsencrpt_dsencrypt_py, __pyx_n_s_is_package, 92, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__30)) __PYX_ERR(0, 92, __pyx_L1_error)
+  __pyx_codeobj__30 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__29, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_opt_dsencrypt_dsencrypt_py, __pyx_n_s_is_package, 92, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__30)) __PYX_ERR(0, 92, __pyx_L1_error)
 
-  /* "dsencrpt/dsencrypt.py":99
+  /* "dsencrypt/dsencrypt.py":99
  * class AESCipher(object):
  * 
  *     def __init__(self, key=AES_RANDOM_KEY, iv=AES_RANDOM_IV):             # <<<<<<<<<<<<<<
@@ -6386,9 +6343,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__31 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_key, __pyx_n_s_iv); if (unlikely(!__pyx_tuple__31)) __PYX_ERR(0, 99, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__31);
   __Pyx_GIVEREF(__pyx_tuple__31);
-  __pyx_codeobj__32 = (PyObject*)__Pyx_PyCode_New(3, 0, 3, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__31, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_opt_dsencrpt_dsencrypt_py, __pyx_n_s_init, 99, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__32)) __PYX_ERR(0, 99, __pyx_L1_error)
+  __pyx_codeobj__32 = (PyObject*)__Pyx_PyCode_New(3, 0, 3, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__31, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_opt_dsencrypt_dsencrypt_py, __pyx_n_s_init, 99, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__32)) __PYX_ERR(0, 99, __pyx_L1_error)
 
-  /* "dsencrpt/dsencrypt.py":112
+  /* "dsencrypt/dsencrypt.py":112
  *     #     return self._unpad(self.cipher.decrypt(base64.b64decode(enc)))
  *     #
  *     def encrypt(self, raw):             # <<<<<<<<<<<<<<
@@ -6398,9 +6355,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__33 = PyTuple_Pack(4, __pyx_n_s_self, __pyx_n_s_raw, __pyx_n_s_iv, __pyx_n_s_cipher); if (unlikely(!__pyx_tuple__33)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__33);
   __Pyx_GIVEREF(__pyx_tuple__33);
-  __pyx_codeobj__34 = (PyObject*)__Pyx_PyCode_New(2, 0, 4, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__33, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_opt_dsencrpt_dsencrypt_py, __pyx_n_s_encrypt, 112, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__34)) __PYX_ERR(0, 112, __pyx_L1_error)
+  __pyx_codeobj__34 = (PyObject*)__Pyx_PyCode_New(2, 0, 4, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__33, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_opt_dsencrypt_dsencrypt_py, __pyx_n_s_encrypt, 112, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__34)) __PYX_ERR(0, 112, __pyx_L1_error)
 
-  /* "dsencrpt/dsencrypt.py":118
+  /* "dsencrypt/dsencrypt.py":118
  *         return base64.b64encode(iv + cipher.encrypt(raw))
  * 
  *     def decrypt(self, enc):             # <<<<<<<<<<<<<<
@@ -6410,21 +6367,21 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__35 = PyTuple_Pack(4, __pyx_n_s_self, __pyx_n_s_enc, __pyx_n_s_iv, __pyx_n_s_cipher); if (unlikely(!__pyx_tuple__35)) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__35);
   __Pyx_GIVEREF(__pyx_tuple__35);
-  __pyx_codeobj__36 = (PyObject*)__Pyx_PyCode_New(2, 0, 4, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__35, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_opt_dsencrpt_dsencrypt_py, __pyx_n_s_decrypt, 118, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__36)) __PYX_ERR(0, 118, __pyx_L1_error)
+  __pyx_codeobj__36 = (PyObject*)__Pyx_PyCode_New(2, 0, 4, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__35, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_opt_dsencrypt_dsencrypt_py, __pyx_n_s_decrypt, 118, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__36)) __PYX_ERR(0, 118, __pyx_L1_error)
 
-  /* "dsencrpt/dsencrypt.py":124
+  /* "dsencrypt/dsencrypt.py":124
  *         return self._unpad(cipher.decrypt(enc[AES.block_size:]))
  * 
  *     def _pad(self, s):             # <<<<<<<<<<<<<<
  *         return s + (self.bs - len(s) % self.bs) * chr(self.bs - len(s) % self.bs)
  * 
  */
-  __pyx_tuple__37 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_s_2); if (unlikely(!__pyx_tuple__37)) __PYX_ERR(0, 124, __pyx_L1_error)
+  __pyx_tuple__37 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_s); if (unlikely(!__pyx_tuple__37)) __PYX_ERR(0, 124, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__37);
   __Pyx_GIVEREF(__pyx_tuple__37);
-  __pyx_codeobj__38 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__37, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_opt_dsencrpt_dsencrypt_py, __pyx_n_s_pad, 124, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__38)) __PYX_ERR(0, 124, __pyx_L1_error)
+  __pyx_codeobj__38 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__37, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_opt_dsencrypt_dsencrypt_py, __pyx_n_s_pad, 124, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__38)) __PYX_ERR(0, 124, __pyx_L1_error)
 
-  /* "dsencrpt/dsencrypt.py":128
+  /* "dsencrypt/dsencrypt.py":128
  * 
  *     @staticmethod
  *     def is_encrypt_py(f):             # <<<<<<<<<<<<<<
@@ -6434,31 +6391,31 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__39 = PyTuple_Pack(1, __pyx_n_s_f); if (unlikely(!__pyx_tuple__39)) __PYX_ERR(0, 128, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__39);
   __Pyx_GIVEREF(__pyx_tuple__39);
-  __pyx_codeobj__40 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__39, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_opt_dsencrpt_dsencrypt_py, __pyx_n_s_is_encrypt_py, 128, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__40)) __PYX_ERR(0, 128, __pyx_L1_error)
+  __pyx_codeobj__40 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__39, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_opt_dsencrypt_dsencrypt_py, __pyx_n_s_is_encrypt_py, 128, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__40)) __PYX_ERR(0, 128, __pyx_L1_error)
 
-  /* "dsencrpt/dsencrypt.py":135
+  /* "dsencrypt/dsencrypt.py":135
  * 
  *     @staticmethod
  *     def _unpad(s):             # <<<<<<<<<<<<<<
  *         return s[:-ord(s[len(s)-1:])]
  * 
  */
-  __pyx_tuple__41 = PyTuple_Pack(1, __pyx_n_s_s_2); if (unlikely(!__pyx_tuple__41)) __PYX_ERR(0, 135, __pyx_L1_error)
+  __pyx_tuple__41 = PyTuple_Pack(1, __pyx_n_s_s); if (unlikely(!__pyx_tuple__41)) __PYX_ERR(0, 135, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__41);
   __Pyx_GIVEREF(__pyx_tuple__41);
-  __pyx_codeobj__42 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__41, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_opt_dsencrpt_dsencrypt_py, __pyx_n_s_unpad, 135, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__42)) __PYX_ERR(0, 135, __pyx_L1_error)
+  __pyx_codeobj__42 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__41, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_opt_dsencrypt_dsencrypt_py, __pyx_n_s_unpad, 135, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__42)) __PYX_ERR(0, 135, __pyx_L1_error)
 
-  /* "dsencrpt/dsencrypt.py":141
+  /* "dsencrypt/dsencrypt.py":141
  * 
  * 
  * def encrypt_file(file_):             # <<<<<<<<<<<<<<
  *     if file_.endswith('pyc'):
  *         mod = 'rb+'
  */
-  __pyx_tuple__43 = PyTuple_Pack(5, __pyx_n_s_file_3, __pyx_n_s_mod, __pyx_n_s_f, __pyx_n_s_s_2, __pyx_n_s_es); if (unlikely(!__pyx_tuple__43)) __PYX_ERR(0, 141, __pyx_L1_error)
+  __pyx_tuple__43 = PyTuple_Pack(5, __pyx_n_s_file_3, __pyx_n_s_mod, __pyx_n_s_f, __pyx_n_s_s, __pyx_n_s_es); if (unlikely(!__pyx_tuple__43)) __PYX_ERR(0, 141, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__43);
   __Pyx_GIVEREF(__pyx_tuple__43);
-  __pyx_codeobj__44 = (PyObject*)__Pyx_PyCode_New(1, 0, 5, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__43, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_opt_dsencrpt_dsencrypt_py, __pyx_n_s_encrypt_file, 141, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__44)) __PYX_ERR(0, 141, __pyx_L1_error)
+  __pyx_codeobj__44 = (PyObject*)__Pyx_PyCode_New(1, 0, 5, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__43, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_opt_dsencrypt_dsencrypt_py, __pyx_n_s_encrypt_file, 141, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__44)) __PYX_ERR(0, 141, __pyx_L1_error)
   __Pyx_RefNannyFinishContext();
   return 0;
   __pyx_L1_error:;
@@ -6549,14 +6506,14 @@ PyMODINIT_FUNC PyInit_dsencrypt(void)
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
-  if (__pyx_module_is_main_dsencrpt__dsencrypt) {
+  if (__pyx_module_is_main_dsencrypt__dsencrypt) {
     if (PyObject_SetAttrString(__pyx_m, "__name__", __pyx_n_s_main) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   }
   #if PY_MAJOR_VERSION >= 3
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) __PYX_ERR(0, 1, __pyx_L1_error)
-    if (!PyDict_GetItemString(modules, "dsencrpt.dsencrypt")) {
-      if (unlikely(PyDict_SetItemString(modules, "dsencrpt.dsencrypt", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
+    if (!PyDict_GetItemString(modules, "dsencrypt.dsencrypt")) {
+      if (unlikely(PyDict_SetItemString(modules, "dsencrypt.dsencrypt", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
     }
   }
   #endif
@@ -6576,7 +6533,7 @@ PyMODINIT_FUNC PyInit_dsencrypt(void)
   if (__Pyx_patch_abc() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
 
-  /* "dsencrpt/dsencrypt.py":4
+  /* "dsencrypt/dsencrypt.py":4
  * # encoding:utf-8
  * # Created on 2017-02-15, by dozysun
  * import sys             # <<<<<<<<<<<<<<
@@ -6588,7 +6545,7 @@ PyMODINIT_FUNC PyInit_dsencrypt(void)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_sys, __pyx_t_1) < 0) __PYX_ERR(0, 4, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "dsencrpt/dsencrypt.py":5
+  /* "dsencrypt/dsencrypt.py":5
  * # Created on 2017-02-15, by dozysun
  * import sys
  * import imp             # <<<<<<<<<<<<<<
@@ -6600,7 +6557,7 @@ PyMODINIT_FUNC PyInit_dsencrypt(void)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_imp, __pyx_t_1) < 0) __PYX_ERR(0, 5, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "dsencrpt/dsencrypt.py":6
+  /* "dsencrypt/dsencrypt.py":6
  * import sys
  * import imp
  * import traceback             # <<<<<<<<<<<<<<
@@ -6612,7 +6569,7 @@ PyMODINIT_FUNC PyInit_dsencrypt(void)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_traceback, __pyx_t_1) < 0) __PYX_ERR(0, 6, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "dsencrpt/dsencrypt.py":7
+  /* "dsencrypt/dsencrypt.py":7
  * import imp
  * import traceback
  * import marshal             # <<<<<<<<<<<<<<
@@ -6624,7 +6581,7 @@ PyMODINIT_FUNC PyInit_dsencrypt(void)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_marshal, __pyx_t_1) < 0) __PYX_ERR(0, 7, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "dsencrpt/dsencrypt.py":8
+  /* "dsencrypt/dsencrypt.py":8
  * import traceback
  * import marshal
  * import os             # <<<<<<<<<<<<<<
@@ -6636,7 +6593,7 @@ PyMODINIT_FUNC PyInit_dsencrypt(void)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_os, __pyx_t_1) < 0) __PYX_ERR(0, 8, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "dsencrpt/dsencrypt.py":10
+  /* "dsencrypt/dsencrypt.py":10
  * import os
  * 
  * import base64             # <<<<<<<<<<<<<<
@@ -6648,7 +6605,7 @@ PyMODINIT_FUNC PyInit_dsencrypt(void)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_base64, __pyx_t_1) < 0) __PYX_ERR(0, 10, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "dsencrpt/dsencrypt.py":11
+  /* "dsencrypt/dsencrypt.py":11
  * 
  * import base64
  * import hashlib             # <<<<<<<<<<<<<<
@@ -6660,7 +6617,7 @@ PyMODINIT_FUNC PyInit_dsencrypt(void)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_hashlib, __pyx_t_1) < 0) __PYX_ERR(0, 11, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "dsencrpt/dsencrypt.py":12
+  /* "dsencrypt/dsencrypt.py":12
  * import base64
  * import hashlib
  * from Crypto import Random             # <<<<<<<<<<<<<<
@@ -6681,7 +6638,7 @@ PyMODINIT_FUNC PyInit_dsencrypt(void)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "dsencrpt/dsencrypt.py":13
+  /* "dsencrypt/dsencrypt.py":13
  * import hashlib
  * from Crypto import Random
  * from Crypto.Cipher import AES             # <<<<<<<<<<<<<<
@@ -6702,7 +6659,7 @@ PyMODINIT_FUNC PyInit_dsencrypt(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "dsencrpt/dsencrypt.py":14
+  /* "dsencrypt/dsencrypt.py":14
  * from Crypto import Random
  * from Crypto.Cipher import AES
  * import py_compile             # <<<<<<<<<<<<<<
@@ -6714,7 +6671,7 @@ PyMODINIT_FUNC PyInit_dsencrypt(void)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_py_compile, __pyx_t_1) < 0) __PYX_ERR(0, 14, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "dsencrpt/dsencrypt.py":16
+  /* "dsencrypt/dsencrypt.py":16
  * import py_compile
  * 
  * ENCRYPT_START_STR='DSENCRYPT===:'             # <<<<<<<<<<<<<<
@@ -6723,7 +6680,7 @@ PyMODINIT_FUNC PyInit_dsencrypt(void)
  */
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_ENCRYPT_START_STR, __pyx_kp_s_DSENCRYPT) < 0) __PYX_ERR(0, 16, __pyx_L1_error)
 
-  /* "dsencrpt/dsencrypt.py":17
+  /* "dsencrypt/dsencrypt.py":17
  * 
  * ENCRYPT_START_STR='DSENCRYPT===:'
  * AES_RANDOM_KEY = 'sdfsdfssdfjsdoiewrjsdioafjlekjw'             # <<<<<<<<<<<<<<
@@ -6732,7 +6689,7 @@ PyMODINIT_FUNC PyInit_dsencrypt(void)
  */
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_AES_RANDOM_KEY, __pyx_n_s_sdfsdfssdfjsdoiewrjsdioafjlekjw) < 0) __PYX_ERR(0, 17, __pyx_L1_error)
 
-  /* "dsencrpt/dsencrypt.py":18
+  /* "dsencrypt/dsencrypt.py":18
  * ENCRYPT_START_STR='DSENCRYPT===:'
  * AES_RANDOM_KEY = 'sdfsdfssdfjsdoiewrjsdioafjlekjw'
  * AES_RANDOM_IV = '\x0f\xe1\x0c\x87Na\xa1D\x86$Z\x155\x8e\x82\x80' #Random.new().read(AES.block_size)             # <<<<<<<<<<<<<<
@@ -6741,7 +6698,7 @@ PyMODINIT_FUNC PyInit_dsencrypt(void)
  */
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_AES_RANDOM_IV, __pyx_kp_s_NaD_Z_5_2) < 0) __PYX_ERR(0, 18, __pyx_L1_error)
 
-  /* "dsencrpt/dsencrypt.py":21
+  /* "dsencrypt/dsencrypt.py":21
  * 
  * 
  * class DSImportHook(object):             # <<<<<<<<<<<<<<
@@ -6755,96 +6712,96 @@ PyMODINIT_FUNC PyInit_dsencrypt(void)
   PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_builtin_object);
   __pyx_t_2 = __Pyx_CalculateMetaclass(NULL, __pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 21, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_Py3MetaclassPrepare(__pyx_t_2, __pyx_t_1, __pyx_n_s_DSImportHook, __pyx_n_s_DSImportHook, (PyObject *) NULL, __pyx_n_s_dsencrpt_dsencrypt, __pyx_kp_s_use_imp_module_to_make_find_and); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 21, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_Py3MetaclassPrepare(__pyx_t_2, __pyx_t_1, __pyx_n_s_DSImportHook, __pyx_n_s_DSImportHook, (PyObject *) NULL, __pyx_n_s_dsencrypt_dsencrypt, __pyx_kp_s_use_imp_module_to_make_find_and); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 21, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
 
-  /* "dsencrpt/dsencrypt.py":26
+  /* "dsencrypt/dsencrypt.py":26
  *     see doc: https://docs.python.org/2/library/imp.html#imp.find_module
  *     """
  *     def __init__(self):             # <<<<<<<<<<<<<<
  *         self._modules = {}
  *         self.aes_cipher = AESCipher()
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_8dsencrpt_9dsencrypt_12DSImportHook_1__init__, 0, __pyx_n_s_DSImportHook___init, NULL, __pyx_n_s_dsencrpt_dsencrypt, __pyx_d, ((PyObject *)__pyx_codeobj__16)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 26, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_9dsencrypt_9dsencrypt_12DSImportHook_1__init__, 0, __pyx_n_s_DSImportHook___init, NULL, __pyx_n_s_dsencrypt_dsencrypt, __pyx_d, ((PyObject *)__pyx_codeobj__16)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 26, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_init, __pyx_t_4) < 0) __PYX_ERR(0, 26, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "dsencrpt/dsencrypt.py":30
+  /* "dsencrypt/dsencrypt.py":30
  *         self.aes_cipher = AESCipher()
  * 
  *     def register_module(self, name, pathname, description, is_package=False):             # <<<<<<<<<<<<<<
  *         self._modules[name] = (pathname, description, is_package)
  * 
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_8dsencrpt_9dsencrypt_12DSImportHook_3register_module, 0, __pyx_n_s_DSImportHook_register_module, NULL, __pyx_n_s_dsencrpt_dsencrypt, __pyx_d, ((PyObject *)__pyx_codeobj__18)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 30, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_9dsencrypt_9dsencrypt_12DSImportHook_3register_module, 0, __pyx_n_s_DSImportHook_register_module, NULL, __pyx_n_s_dsencrypt_dsencrypt, __pyx_d, ((PyObject *)__pyx_codeobj__18)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 30, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_4, __pyx_tuple__19);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_register_module, __pyx_t_4) < 0) __PYX_ERR(0, 30, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "dsencrpt/dsencrypt.py":33
+  /* "dsencrypt/dsencrypt.py":33
  *         self._modules[name] = (pathname, description, is_package)
  * 
  *     def find_module(self, name, path=None):             # <<<<<<<<<<<<<<
  *         try:
  *             full_name = name
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_8dsencrpt_9dsencrypt_12DSImportHook_5find_module, 0, __pyx_n_s_DSImportHook_find_module, NULL, __pyx_n_s_dsencrpt_dsencrypt, __pyx_d, ((PyObject *)__pyx_codeobj__21)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 33, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_9dsencrypt_9dsencrypt_12DSImportHook_5find_module, 0, __pyx_n_s_DSImportHook_find_module, NULL, __pyx_n_s_dsencrypt_dsencrypt, __pyx_d, ((PyObject *)__pyx_codeobj__21)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 33, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_4, __pyx_tuple__22);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_find_module, __pyx_t_4) < 0) __PYX_ERR(0, 33, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "dsencrpt/dsencrypt.py":54
+  /* "dsencrypt/dsencrypt.py":54
  *         return None
  * 
  *     def load_module(self, name):             # <<<<<<<<<<<<<<
  *         if name in sys.modules:
  *             return sys.modules[name]
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_8dsencrpt_9dsencrypt_12DSImportHook_7load_module, 0, __pyx_n_s_DSImportHook_load_module, NULL, __pyx_n_s_dsencrpt_dsencrypt, __pyx_d, ((PyObject *)__pyx_codeobj__24)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 54, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_9dsencrypt_9dsencrypt_12DSImportHook_7load_module, 0, __pyx_n_s_DSImportHook_load_module, NULL, __pyx_n_s_dsencrypt_dsencrypt, __pyx_d, ((PyObject *)__pyx_codeobj__24)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 54, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_load_module, __pyx_t_4) < 0) __PYX_ERR(0, 54, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "dsencrpt/dsencrypt.py":85
+  /* "dsencrypt/dsencrypt.py":85
  *             raise ImportError
  * 
  *     def get_code(self, pathname):             # <<<<<<<<<<<<<<
  *         f = open(pathname)
  *         return self.decrypt_py(f.read())
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_8dsencrpt_9dsencrypt_12DSImportHook_9get_code, 0, __pyx_n_s_DSImportHook_get_code, NULL, __pyx_n_s_dsencrpt_dsencrypt, __pyx_d, ((PyObject *)__pyx_codeobj__26)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 85, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_9dsencrypt_9dsencrypt_12DSImportHook_9get_code, 0, __pyx_n_s_DSImportHook_get_code, NULL, __pyx_n_s_dsencrypt_dsencrypt, __pyx_d, ((PyObject *)__pyx_codeobj__26)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 85, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_get_code, __pyx_t_4) < 0) __PYX_ERR(0, 85, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "dsencrpt/dsencrypt.py":89
+  /* "dsencrypt/dsencrypt.py":89
  *         return self.decrypt_py(f.read())
  * 
  *     def decrypt_py(self, code_str):             # <<<<<<<<<<<<<<
  *         return self.aes_cipher.decrypt(code_str.replace(ENCRYPT_START_STR, '', 1))
  * 
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_8dsencrpt_9dsencrypt_12DSImportHook_11decrypt_py, 0, __pyx_n_s_DSImportHook_decrypt_py, NULL, __pyx_n_s_dsencrpt_dsencrypt, __pyx_d, ((PyObject *)__pyx_codeobj__28)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 89, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_9dsencrypt_9dsencrypt_12DSImportHook_11decrypt_py, 0, __pyx_n_s_DSImportHook_decrypt_py, NULL, __pyx_n_s_dsencrypt_dsencrypt, __pyx_d, ((PyObject *)__pyx_codeobj__28)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 89, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_decrypt_py, __pyx_t_4) < 0) __PYX_ERR(0, 89, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "dsencrpt/dsencrypt.py":92
+  /* "dsencrypt/dsencrypt.py":92
  *         return self.aes_cipher.decrypt(code_str.replace(ENCRYPT_START_STR, '', 1))
  * 
  *     def is_package(self, name):             # <<<<<<<<<<<<<<
  *         return False
  *         # return self._modules[name][-1][0] and False or True
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_8dsencrpt_9dsencrypt_12DSImportHook_13is_package, 0, __pyx_n_s_DSImportHook_is_package, NULL, __pyx_n_s_dsencrpt_dsencrypt, __pyx_d, ((PyObject *)__pyx_codeobj__30)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 92, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_9dsencrypt_9dsencrypt_12DSImportHook_13is_package, 0, __pyx_n_s_DSImportHook_is_package, NULL, __pyx_n_s_dsencrypt_dsencrypt, __pyx_d, ((PyObject *)__pyx_codeobj__30)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 92, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_is_package, __pyx_t_4) < 0) __PYX_ERR(0, 92, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "dsencrpt/dsencrypt.py":21
+  /* "dsencrypt/dsencrypt.py":21
  * 
  * 
  * class DSImportHook(object):             # <<<<<<<<<<<<<<
@@ -6859,7 +6816,7 @@ PyMODINIT_FUNC PyInit_dsencrypt(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "dsencrpt/dsencrypt.py":97
+  /* "dsencrypt/dsencrypt.py":97
  * 
  * 
  * class AESCipher(object):             # <<<<<<<<<<<<<<
@@ -6873,17 +6830,17 @@ PyMODINIT_FUNC PyInit_dsencrypt(void)
   PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_builtin_object);
   __pyx_t_2 = __Pyx_CalculateMetaclass(NULL, __pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 97, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_Py3MetaclassPrepare(__pyx_t_2, __pyx_t_1, __pyx_n_s_AESCipher, __pyx_n_s_AESCipher, (PyObject *) NULL, __pyx_n_s_dsencrpt_dsencrypt, (PyObject *) NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 97, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_Py3MetaclassPrepare(__pyx_t_2, __pyx_t_1, __pyx_n_s_AESCipher, __pyx_n_s_AESCipher, (PyObject *) NULL, __pyx_n_s_dsencrypt_dsencrypt, (PyObject *) NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 97, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
 
-  /* "dsencrpt/dsencrypt.py":99
+  /* "dsencrypt/dsencrypt.py":99
  * class AESCipher(object):
  * 
  *     def __init__(self, key=AES_RANDOM_KEY, iv=AES_RANDOM_IV):             # <<<<<<<<<<<<<<
  *         self.bs = 32
  *         self.key = hashlib.sha256(key.encode()).digest()
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_8dsencrpt_9dsencrypt_9AESCipher_1__init__, 0, __pyx_n_s_AESCipher___init, NULL, __pyx_n_s_dsencrpt_dsencrypt, __pyx_d, ((PyObject *)__pyx_codeobj__32)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 99, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_9dsencrypt_9dsencrypt_9AESCipher_1__init__, 0, __pyx_n_s_AESCipher___init, NULL, __pyx_n_s_dsencrypt_dsencrypt, __pyx_d, ((PyObject *)__pyx_codeobj__32)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 99, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   if (!__Pyx_CyFunction_InitDefaults(__pyx_t_4, sizeof(__pyx_defaults), 2)) __PYX_ERR(0, 99, __pyx_L1_error)
   __pyx_t_5 = __Pyx_GetModuleGlobalName(__pyx_n_s_AES_RANDOM_KEY); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 99, __pyx_L1_error)
@@ -6896,57 +6853,57 @@ PyMODINIT_FUNC PyInit_dsencrypt(void)
   __Pyx_CyFunction_Defaults(__pyx_defaults, __pyx_t_4)->__pyx_arg_iv = __pyx_t_5;
   __Pyx_GIVEREF(__pyx_t_5);
   __pyx_t_5 = 0;
-  __Pyx_CyFunction_SetDefaultsGetter(__pyx_t_4, __pyx_pf_8dsencrpt_9dsencrypt_2__defaults__);
+  __Pyx_CyFunction_SetDefaultsGetter(__pyx_t_4, __pyx_pf_9dsencrypt_9dsencrypt_2__defaults__);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_init, __pyx_t_4) < 0) __PYX_ERR(0, 99, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "dsencrpt/dsencrypt.py":112
+  /* "dsencrypt/dsencrypt.py":112
  *     #     return self._unpad(self.cipher.decrypt(base64.b64decode(enc)))
  *     #
  *     def encrypt(self, raw):             # <<<<<<<<<<<<<<
  *         raw = self._pad(raw)
  *         iv = Random.new().read(AES.block_size)
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_8dsencrpt_9dsencrypt_9AESCipher_3encrypt, 0, __pyx_n_s_AESCipher_encrypt, NULL, __pyx_n_s_dsencrpt_dsencrypt, __pyx_d, ((PyObject *)__pyx_codeobj__34)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 112, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_9dsencrypt_9dsencrypt_9AESCipher_3encrypt, 0, __pyx_n_s_AESCipher_encrypt, NULL, __pyx_n_s_dsencrypt_dsencrypt, __pyx_d, ((PyObject *)__pyx_codeobj__34)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_encrypt, __pyx_t_4) < 0) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "dsencrpt/dsencrypt.py":118
+  /* "dsencrypt/dsencrypt.py":118
  *         return base64.b64encode(iv + cipher.encrypt(raw))
  * 
  *     def decrypt(self, enc):             # <<<<<<<<<<<<<<
  *         enc = base64.b64decode(enc)
  *         iv = enc[:AES.block_size]
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_8dsencrpt_9dsencrypt_9AESCipher_5decrypt, 0, __pyx_n_s_AESCipher_decrypt, NULL, __pyx_n_s_dsencrpt_dsencrypt, __pyx_d, ((PyObject *)__pyx_codeobj__36)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 118, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_9dsencrypt_9dsencrypt_9AESCipher_5decrypt, 0, __pyx_n_s_AESCipher_decrypt, NULL, __pyx_n_s_dsencrypt_dsencrypt, __pyx_d, ((PyObject *)__pyx_codeobj__36)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_decrypt, __pyx_t_4) < 0) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "dsencrpt/dsencrypt.py":124
+  /* "dsencrypt/dsencrypt.py":124
  *         return self._unpad(cipher.decrypt(enc[AES.block_size:]))
  * 
  *     def _pad(self, s):             # <<<<<<<<<<<<<<
  *         return s + (self.bs - len(s) % self.bs) * chr(self.bs - len(s) % self.bs)
  * 
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_8dsencrpt_9dsencrypt_9AESCipher_7_pad, 0, __pyx_n_s_AESCipher__pad, NULL, __pyx_n_s_dsencrpt_dsencrypt, __pyx_d, ((PyObject *)__pyx_codeobj__38)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 124, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_9dsencrypt_9dsencrypt_9AESCipher_7_pad, 0, __pyx_n_s_AESCipher__pad, NULL, __pyx_n_s_dsencrypt_dsencrypt, __pyx_d, ((PyObject *)__pyx_codeobj__38)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 124, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_pad, __pyx_t_4) < 0) __PYX_ERR(0, 124, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "dsencrpt/dsencrypt.py":128
+  /* "dsencrypt/dsencrypt.py":128
  * 
  *     @staticmethod
  *     def is_encrypt_py(f):             # <<<<<<<<<<<<<<
  *         if isinstance(f, file):
  *             f = f.read(20)
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_8dsencrpt_9dsencrypt_9AESCipher_9is_encrypt_py, __Pyx_CYFUNCTION_STATICMETHOD, __pyx_n_s_AESCipher_is_encrypt_py, NULL, __pyx_n_s_dsencrpt_dsencrypt, __pyx_d, ((PyObject *)__pyx_codeobj__40)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 128, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_9dsencrypt_9dsencrypt_9AESCipher_9is_encrypt_py, __Pyx_CYFUNCTION_STATICMETHOD, __pyx_n_s_AESCipher_is_encrypt_py, NULL, __pyx_n_s_dsencrypt_dsencrypt, __pyx_d, ((PyObject *)__pyx_codeobj__40)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 128, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
 
-  /* "dsencrpt/dsencrypt.py":127
+  /* "dsencrypt/dsencrypt.py":127
  *         return s + (self.bs - len(s) % self.bs) * chr(self.bs - len(s) % self.bs)
  * 
  *     @staticmethod             # <<<<<<<<<<<<<<
@@ -6964,17 +6921,17 @@ PyMODINIT_FUNC PyInit_dsencrypt(void)
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_is_encrypt_py, __pyx_t_4) < 0) __PYX_ERR(0, 128, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "dsencrpt/dsencrypt.py":135
+  /* "dsencrypt/dsencrypt.py":135
  * 
  *     @staticmethod
  *     def _unpad(s):             # <<<<<<<<<<<<<<
  *         return s[:-ord(s[len(s)-1:])]
  * 
  */
-  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_8dsencrpt_9dsencrypt_9AESCipher_11_unpad, __Pyx_CYFUNCTION_STATICMETHOD, __pyx_n_s_AESCipher__unpad, NULL, __pyx_n_s_dsencrpt_dsencrypt, __pyx_d, ((PyObject *)__pyx_codeobj__42)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 135, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_9dsencrypt_9dsencrypt_9AESCipher_11_unpad, __Pyx_CYFUNCTION_STATICMETHOD, __pyx_n_s_AESCipher__unpad, NULL, __pyx_n_s_dsencrypt_dsencrypt, __pyx_d, ((PyObject *)__pyx_codeobj__42)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 135, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
 
-  /* "dsencrpt/dsencrypt.py":134
+  /* "dsencrypt/dsencrypt.py":134
  *             return True
  * 
  *     @staticmethod             # <<<<<<<<<<<<<<
@@ -6992,7 +6949,7 @@ PyMODINIT_FUNC PyInit_dsencrypt(void)
   if (PyObject_SetItem(__pyx_t_3, __pyx_n_s_unpad, __pyx_t_4) < 0) __PYX_ERR(0, 135, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "dsencrpt/dsencrypt.py":97
+  /* "dsencrypt/dsencrypt.py":97
  * 
  * 
  * class AESCipher(object):             # <<<<<<<<<<<<<<
@@ -7007,7 +6964,7 @@ PyMODINIT_FUNC PyInit_dsencrypt(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "dsencrpt/dsencrypt.py":138
+  /* "dsencrypt/dsencrypt.py":138
  *         return s[:-ord(s[len(s)-1:])]
  * 
  * aes_cipher = AESCipher()             # <<<<<<<<<<<<<<
@@ -7037,44 +6994,44 @@ PyMODINIT_FUNC PyInit_dsencrypt(void)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_aes_cipher, __pyx_t_1) < 0) __PYX_ERR(0, 138, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "dsencrpt/dsencrypt.py":141
+  /* "dsencrypt/dsencrypt.py":141
  * 
  * 
  * def encrypt_file(file_):             # <<<<<<<<<<<<<<
  *     if file_.endswith('pyc'):
  *         mod = 'rb+'
  */
-  __pyx_t_1 = __Pyx_CyFunction_NewEx(&__pyx_mdef_8dsencrpt_9dsencrypt_1encrypt_file, 0, __pyx_n_s_encrypt_file, NULL, __pyx_n_s_dsencrpt_dsencrypt, __pyx_d, ((PyObject *)__pyx_codeobj__44)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 141, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_CyFunction_NewEx(&__pyx_mdef_9dsencrypt_9dsencrypt_1encrypt_file, 0, __pyx_n_s_encrypt_file, NULL, __pyx_n_s_dsencrypt_dsencrypt, __pyx_d, ((PyObject *)__pyx_codeobj__44)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 141, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_encrypt_file, __pyx_t_1) < 0) __PYX_ERR(0, 141, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "dsencrpt/dsencrypt.py":156
- *         print 'done encrypt'
+  /* "dsencrypt/dsencrypt.py":155
+ *         f.write(es)
  * 
  * if __name__ == '__main__':             # <<<<<<<<<<<<<<
  *     sys.meta_path.insert(0, DSImportHook())
  */
-  __pyx_t_1 = __Pyx_GetModuleGlobalName(__pyx_n_s_name_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 156, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetModuleGlobalName(__pyx_n_s_name_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 155, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_6 = (__Pyx_PyString_Equals(__pyx_t_1, __pyx_n_s_main, Py_EQ)); if (unlikely(__pyx_t_6 < 0)) __PYX_ERR(0, 156, __pyx_L1_error)
+  __pyx_t_6 = (__Pyx_PyString_Equals(__pyx_t_1, __pyx_n_s_main, Py_EQ)); if (unlikely(__pyx_t_6 < 0)) __PYX_ERR(0, 155, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   if (__pyx_t_6) {
 
-    /* "dsencrpt/dsencrypt.py":157
+    /* "dsencrypt/dsencrypt.py":156
  * 
  * if __name__ == '__main__':
  *     sys.meta_path.insert(0, DSImportHook())             # <<<<<<<<<<<<<<
  */
-    __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_sys); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 157, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_sys); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 156, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_meta_path); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 157, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_meta_path); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 156, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_insert); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 157, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_insert); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 156, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_4 = __Pyx_GetModuleGlobalName(__pyx_n_s_DSImportHook); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 157, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_GetModuleGlobalName(__pyx_n_s_DSImportHook); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 156, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __pyx_t_5 = NULL;
     if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_4))) {
@@ -7087,10 +7044,10 @@ PyMODINIT_FUNC PyInit_dsencrypt(void)
       }
     }
     if (__pyx_t_5) {
-      __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_t_5); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 157, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_t_5); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 156, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     } else {
-      __pyx_t_3 = __Pyx_PyObject_CallNoArg(__pyx_t_4); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 157, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyObject_CallNoArg(__pyx_t_4); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 156, __pyx_L1_error)
     }
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
@@ -7109,7 +7066,7 @@ PyMODINIT_FUNC PyInit_dsencrypt(void)
     #if CYTHON_FAST_PYCALL
     if (PyFunction_Check(__pyx_t_2)) {
       PyObject *__pyx_temp[3] = {__pyx_t_4, __pyx_int_0, __pyx_t_3};
-      __pyx_t_1 = __Pyx_PyFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_7, 2+__pyx_t_7); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 157, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_7, 2+__pyx_t_7); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 156, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -7118,14 +7075,14 @@ PyMODINIT_FUNC PyInit_dsencrypt(void)
     #if CYTHON_FAST_PYCCALL
     if (__Pyx_PyFastCFunction_Check(__pyx_t_2)) {
       PyObject *__pyx_temp[3] = {__pyx_t_4, __pyx_int_0, __pyx_t_3};
-      __pyx_t_1 = __Pyx_PyCFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_7, 2+__pyx_t_7); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 157, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyCFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_7, 2+__pyx_t_7); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 156, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     } else
     #endif
     {
-      __pyx_t_5 = PyTuple_New(2+__pyx_t_7); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 157, __pyx_L1_error)
+      __pyx_t_5 = PyTuple_New(2+__pyx_t_7); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 156, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
       if (__pyx_t_4) {
         __Pyx_GIVEREF(__pyx_t_4); PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_4); __pyx_t_4 = NULL;
@@ -7136,22 +7093,22 @@ PyMODINIT_FUNC PyInit_dsencrypt(void)
       __Pyx_GIVEREF(__pyx_t_3);
       PyTuple_SET_ITEM(__pyx_t_5, 1+__pyx_t_7, __pyx_t_3);
       __pyx_t_3 = 0;
-      __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_5, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 157, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_5, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 156, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     }
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "dsencrpt/dsencrypt.py":156
- *         print 'done encrypt'
+    /* "dsencrypt/dsencrypt.py":155
+ *         f.write(es)
  * 
  * if __name__ == '__main__':             # <<<<<<<<<<<<<<
  *     sys.meta_path.insert(0, DSImportHook())
  */
   }
 
-  /* "dsencrpt/dsencrypt.py":1
+  /* "dsencrypt/dsencrypt.py":1
  * #!/usr/bin/env python2.7             # <<<<<<<<<<<<<<
  * # encoding:utf-8
  * # Created on 2017-02-15, by dozysun
@@ -7172,11 +7129,11 @@ PyMODINIT_FUNC PyInit_dsencrypt(void)
   __Pyx_XDECREF(__pyx_t_5);
   if (__pyx_m) {
     if (__pyx_d) {
-      __Pyx_AddTraceback("init dsencrpt.dsencrypt", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init dsencrypt.dsencrypt", __pyx_clineno, __pyx_lineno, __pyx_filename);
     }
     Py_DECREF(__pyx_m); __pyx_m = 0;
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init dsencrpt.dsencrypt");
+    PyErr_SetString(PyExc_ImportError, "init dsencrypt.dsencrypt");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
@@ -9405,149 +9362,6 @@ bad:
     Py_XDECREF(s);
     return 0;
 }
-
-/* Print */
-              #if !CYTHON_COMPILING_IN_PYPY && PY_MAJOR_VERSION < 3
-static PyObject *__Pyx_GetStdout(void) {
-    PyObject *f = PySys_GetObject((char *)"stdout");
-    if (!f) {
-        PyErr_SetString(PyExc_RuntimeError, "lost sys.stdout");
-    }
-    return f;
-}
-static int __Pyx_Print(PyObject* f, PyObject *arg_tuple, int newline) {
-    int i;
-    if (!f) {
-        if (!(f = __Pyx_GetStdout()))
-            return -1;
-    }
-    Py_INCREF(f);
-    for (i=0; i < PyTuple_GET_SIZE(arg_tuple); i++) {
-        PyObject* v;
-        if (PyFile_SoftSpace(f, 1)) {
-            if (PyFile_WriteString(" ", f) < 0)
-                goto error;
-        }
-        v = PyTuple_GET_ITEM(arg_tuple, i);
-        if (PyFile_WriteObject(v, f, Py_PRINT_RAW) < 0)
-            goto error;
-        if (PyString_Check(v)) {
-            char *s = PyString_AsString(v);
-            Py_ssize_t len = PyString_Size(v);
-            if (len > 0) {
-                switch (s[len-1]) {
-                    case ' ': break;
-                    case '\f': case '\r': case '\n': case '\t': case '\v':
-                        PyFile_SoftSpace(f, 0);
-                        break;
-                    default:  break;
-                }
-            }
-        }
-    }
-    if (newline) {
-        if (PyFile_WriteString("\n", f) < 0)
-            goto error;
-        PyFile_SoftSpace(f, 0);
-    }
-    Py_DECREF(f);
-    return 0;
-error:
-    Py_DECREF(f);
-    return -1;
-}
-#else
-static int __Pyx_Print(PyObject* stream, PyObject *arg_tuple, int newline) {
-    PyObject* kwargs = 0;
-    PyObject* result = 0;
-    PyObject* end_string;
-    if (unlikely(!__pyx_print)) {
-        __pyx_print = PyObject_GetAttr(__pyx_b, __pyx_n_s_print);
-        if (!__pyx_print)
-            return -1;
-    }
-    if (stream) {
-        kwargs = PyDict_New();
-        if (unlikely(!kwargs))
-            return -1;
-        if (unlikely(PyDict_SetItem(kwargs, __pyx_n_s_file, stream) < 0))
-            goto bad;
-        if (!newline) {
-            end_string = PyUnicode_FromStringAndSize(" ", 1);
-            if (unlikely(!end_string))
-                goto bad;
-            if (PyDict_SetItem(kwargs, __pyx_n_s_end, end_string) < 0) {
-                Py_DECREF(end_string);
-                goto bad;
-            }
-            Py_DECREF(end_string);
-        }
-    } else if (!newline) {
-        if (unlikely(!__pyx_print_kwargs)) {
-            __pyx_print_kwargs = PyDict_New();
-            if (unlikely(!__pyx_print_kwargs))
-                return -1;
-            end_string = PyUnicode_FromStringAndSize(" ", 1);
-            if (unlikely(!end_string))
-                return -1;
-            if (PyDict_SetItem(__pyx_print_kwargs, __pyx_n_s_end, end_string) < 0) {
-                Py_DECREF(end_string);
-                return -1;
-            }
-            Py_DECREF(end_string);
-        }
-        kwargs = __pyx_print_kwargs;
-    }
-    result = PyObject_Call(__pyx_print, arg_tuple, kwargs);
-    if (unlikely(kwargs) && (kwargs != __pyx_print_kwargs))
-        Py_DECREF(kwargs);
-    if (!result)
-        return -1;
-    Py_DECREF(result);
-    return 0;
-bad:
-    if (kwargs != __pyx_print_kwargs)
-        Py_XDECREF(kwargs);
-    return -1;
-}
-#endif
-
-/* PrintOne */
-              #if !CYTHON_COMPILING_IN_PYPY && PY_MAJOR_VERSION < 3
-static int __Pyx_PrintOne(PyObject* f, PyObject *o) {
-    if (!f) {
-        if (!(f = __Pyx_GetStdout()))
-            return -1;
-    }
-    Py_INCREF(f);
-    if (PyFile_SoftSpace(f, 0)) {
-        if (PyFile_WriteString(" ", f) < 0)
-            goto error;
-    }
-    if (PyFile_WriteObject(o, f, Py_PRINT_RAW) < 0)
-        goto error;
-    if (PyFile_WriteString("\n", f) < 0)
-        goto error;
-    Py_DECREF(f);
-    return 0;
-error:
-    Py_DECREF(f);
-    return -1;
-    /* the line below is just to avoid C compiler
-     * warnings about unused functions */
-    return __Pyx_Print(f, NULL, 0);
-}
-#else
-static int __Pyx_PrintOne(PyObject* stream, PyObject *o) {
-    int res;
-    PyObject* arg_tuple = PyTuple_Pack(1, o);
-    if (unlikely(!arg_tuple))
-        return -1;
-    res = __Pyx_Print(stream, arg_tuple, 1);
-    Py_DECREF(arg_tuple);
-    return res;
-}
-#endif
 
 /* CIntFromPyVerify */
               #define __PYX_VERIFY_RETURN_INT(target_type, func_type, func_value)\

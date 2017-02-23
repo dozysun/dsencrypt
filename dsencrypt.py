@@ -5,15 +5,13 @@ import sys
 import imp
 import traceback
 import marshal
-import os
 
 import base64
 import hashlib
 from Crypto import Random
 from Crypto.Cipher import AES
-import py_compile
 
-ENCRYPT_START_STR='DSENCRYPT===:'
+ENCRYPT_START_STR = 'DSENCRYPT===:'
 AES_RANDOM_KEY = 'sdfsdfssdfjsdoiewrjsdioafjlekjw'
 AES_RANDOM_IV = '\x0f\xe1\x0c\x87Na\xa1D\x86$Z\x155\x8e\x82\x80' #Random.new().read(AES.block_size)
 
@@ -68,7 +66,7 @@ class DSImportHook(object):
 
             mod = sys.modules.setdefault(name, imp.new_module(name))
             mod.__name__ = name
-            mod.__file__ = "<%s>" % self._modules[name][0]
+            mod.__file__ = pathname
             mod.__loader__ = self
             if ispkg:
                 mod.__path__ = []
@@ -151,7 +149,6 @@ def encrypt_file(file_):
         es = aes_cipher.encrypt(s)
         f.write(ENCRYPT_START_STR)
         f.write(es)
-        print 'done encrypt'
 
 if __name__ == '__main__':
     sys.meta_path.insert(0, DSImportHook())
